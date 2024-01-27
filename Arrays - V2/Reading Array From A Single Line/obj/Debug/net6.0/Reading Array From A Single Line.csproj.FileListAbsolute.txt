@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Array From A Single Line\bin\Debug\net6.0\Reading Array From A Single Line.exe
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Array From A Single Line\bin\Debug\net6.0\Reading Array From A Single Line.deps.json
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Array From A Single Line\bin\Debug\net6.0\Reading Array From A Single Line.runtimeconfig.json
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Array From A Single Line\bin\Debug\net6.0\Reading Array From A Single Line.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Array From A Single Line\bin\Debug\net6.0\Reading Array From A Single Line.pdb
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Array From A Single Line\obj\Debug\net6.0\Reading Array From A Single Line.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Array From A Single Line\obj\Debug\net6.0\Reading Array From A Single Line.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Array From A Single Line\obj\Debug\net6.0\Reading Array From A Single Line.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Array From A Single Line\obj\Debug\net6.0\Reading Array From A Single Line.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Array From A Single Line\obj\Debug\net6.0\Reading Array From A Single Line.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Array From A Single Line\obj\Debug\net6.0\refint\Reading Array From A Single Line.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Array From A Single Line\obj\Debug\net6.0\Reading Array From A Single Line.pdb
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Array From A Single Line\obj\Debug\net6.0\Reading Array From A Single Line.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Array From A Single Line\obj\Debug\net6.0\ref\Reading Array From A Single Line.dll

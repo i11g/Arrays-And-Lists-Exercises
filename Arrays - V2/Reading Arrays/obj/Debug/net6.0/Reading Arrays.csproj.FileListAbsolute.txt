@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Arrays\bin\Debug\net6.0\Reading Arrays.exe
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Arrays\bin\Debug\net6.0\Reading Arrays.deps.json
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Arrays\bin\Debug\net6.0\Reading Arrays.runtimeconfig.json
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Arrays\bin\Debug\net6.0\Reading Arrays.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Arrays\bin\Debug\net6.0\Reading Arrays.pdb
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Arrays\obj\Debug\net6.0\Reading Arrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Arrays\obj\Debug\net6.0\Reading Arrays.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Arrays\obj\Debug\net6.0\Reading Arrays.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Arrays\obj\Debug\net6.0\Reading Arrays.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Arrays\obj\Debug\net6.0\Reading Arrays.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Arrays\obj\Debug\net6.0\refint\Reading Arrays.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Arrays\obj\Debug\net6.0\Reading Arrays.pdb
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Arrays\obj\Debug\net6.0\Reading Arrays.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays - V2\Reading Arrays\obj\Debug\net6.0\ref\Reading Arrays.dll
