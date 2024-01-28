@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Even Or Odd Substraction\bin\Debug\net6.0\Even Or Odd Substraction.exe
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Even Or Odd Substraction\bin\Debug\net6.0\Even Or Odd Substraction.deps.json
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Even Or Odd Substraction\bin\Debug\net6.0\Even Or Odd Substraction.runtimeconfig.json
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Even Or Odd Substraction\bin\Debug\net6.0\Even Or Odd Substraction.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Even Or Odd Substraction\bin\Debug\net6.0\Even Or Odd Substraction.pdb
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Even Or Odd Substraction\obj\Debug\net6.0\Even Or Odd Substraction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Even Or Odd Substraction\obj\Debug\net6.0\Even Or Odd Substraction.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Even Or Odd Substraction\obj\Debug\net6.0\Even Or Odd Substraction.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Even Or Odd Substraction\obj\Debug\net6.0\Even Or Odd Substraction.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Even Or Odd Substraction\obj\Debug\net6.0\Even Or Odd Substraction.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Even Or Odd Substraction\obj\Debug\net6.0\refint\Even Or Odd Substraction.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Even Or Odd Substraction\obj\Debug\net6.0\Even Or Odd Substraction.pdb
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Even Or Odd Substraction\obj\Debug\net6.0\Even Or Odd Substraction.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Even Or Odd Substraction\obj\Debug\net6.0\ref\Even Or Odd Substraction.dll

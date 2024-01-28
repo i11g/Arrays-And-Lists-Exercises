@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Even Or Odd Substraction/1.0.0": {
+        "runtime": {
+          "Even Or Odd Substraction.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Even Or Odd Substraction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
