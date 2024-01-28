@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\ConsoleApp1\bin\Debug\net6.0\Common Elements Different Positions.exe
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\ConsoleApp1\bin\Debug\net6.0\Common Elements Different Positions.deps.json
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\ConsoleApp1\bin\Debug\net6.0\Common Elements Different Positions.runtimeconfig.json
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\ConsoleApp1\bin\Debug\net6.0\Common Elements Different Positions.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\ConsoleApp1\bin\Debug\net6.0\Common Elements Different Positions.pdb
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\ConsoleApp1\obj\Debug\net6.0\Common Elements Different Positions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\ConsoleApp1\obj\Debug\net6.0\Common Elements Different Positions.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\ConsoleApp1\obj\Debug\net6.0\Common Elements Different Positions.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\ConsoleApp1\obj\Debug\net6.0\Common Elements Different Positions.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\ConsoleApp1\obj\Debug\net6.0\Common Elements Different Positions.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\ConsoleApp1\obj\Debug\net6.0\refint\Common Elements Different Positions.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\ConsoleApp1\obj\Debug\net6.0\Common Elements Different Positions.pdb
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\ConsoleApp1\obj\Debug\net6.0\Common Elements Different Positions.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\ConsoleApp1\obj\Debug\net6.0\ref\Common Elements Different Positions.dll

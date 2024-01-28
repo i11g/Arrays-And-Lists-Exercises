@@ -1,15 +1,21 @@
-﻿int[] num1=Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
-int[] num2=Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
-
-string elements ="";
-for (int i = 0; i < num1.Length; i++)
+﻿namespace Common_Elements
 {
-    for (int j = 0; j < num2.Length; j++)
+    internal class Program
     {
-        if (num1[i] == num2[j])
+        static void Main(string[] args)
         {
-            elements += num1[i] + " ";
+            string[] first = Console.ReadLine().Split(' ');
+            string[] second = Console.ReadLine().Split(' ');
+            string common = "";
+
+            for (int i = 0; i < first.Length ; i++)
+            {
+                if (first[i] == second[i])
+                {
+                    common =common + first[i];
+                }
+            }
+            Console.WriteLine(common+ "  ");
         }
     }
 }
-Console.WriteLine(elements);

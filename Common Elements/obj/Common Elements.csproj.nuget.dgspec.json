@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\Visual Studio Prog\\Arrays\\Arrays Lab New\\Common Elements\\Common Elements.csproj": {}
+    "C:\\Users\\Admin\\Desktop\\Visual Studio Prog\\Arrays Lab\\Common Elements\\Common Elements.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\Visual Studio Prog\\Arrays\\Arrays Lab New\\Common Elements\\Common Elements.csproj": {
+    "C:\\Users\\Admin\\Desktop\\Visual Studio Prog\\Arrays Lab\\Common Elements\\Common Elements.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Visual Studio Prog\\Arrays\\Arrays Lab New\\Common Elements\\Common Elements.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\Visual Studio Prog\\Arrays Lab\\Common Elements\\Common Elements.csproj",
         "projectName": "Common Elements",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\Visual Studio Prog\\Arrays\\Arrays Lab New\\Common Elements\\Common Elements.csproj",
+        "projectPath": "C:\\Users\\Admin\\Desktop\\Visual Studio Prog\\Arrays Lab\\Common Elements\\Common Elements.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\Visual Studio Prog\\Arrays\\Arrays Lab New\\Common Elements\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\Desktop\\Visual Studio Prog\\Arrays Lab\\Common Elements\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,21 +1,26 @@
-﻿int[] num=Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
-
-int[] condensed = new int[num.Length - 1];
-if(num.Length ==1 )
+﻿namespace Condense_Array_to_Number
 {
-    Console.WriteLine(num[0]);
-}
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] numbers = Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
 
-while (condensed.Length > 0)
-{
-    condensed = new int[num.Length - 1];
-    for (int i = 0; i < num.Length-1; i++)
-    {
-        condensed[i] =num[i]+ num[i+1];
-    }
-     num=condensed;
-    if(condensed.Length == 1 )
-    {
-        Console.WriteLine(string.Join(" ", condensed));
-    }
+
+
+            while (numbers.Length > 1)
+            {
+                int[] condensed = new int[numbers.Length-1];
+
+                for (int i = 0; i < numbers.Length-1; i++)
+                {
+
+                    condensed[i] = numbers[i] + numbers[i + 1];
+                }
+                numbers = condensed;
+                Console.WriteLine(string.Join(",", numbers));
+            }
+            Console.WriteLine(string.Join(",",numbers));
+        }
+        }
 }
