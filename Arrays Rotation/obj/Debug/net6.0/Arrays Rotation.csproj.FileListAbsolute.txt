@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Arrays Rotation\bin\Debug\net6.0\Arrays Rotation.exe
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Arrays Rotation\bin\Debug\net6.0\Arrays Rotation.deps.json
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Arrays Rotation\bin\Debug\net6.0\Arrays Rotation.runtimeconfig.json
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Arrays Rotation\bin\Debug\net6.0\Arrays Rotation.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Arrays Rotation\bin\Debug\net6.0\Arrays Rotation.pdb
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Arrays Rotation\obj\Debug\net6.0\Arrays Rotation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Arrays Rotation\obj\Debug\net6.0\Arrays Rotation.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Arrays Rotation\obj\Debug\net6.0\Arrays Rotation.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Arrays Rotation\obj\Debug\net6.0\Arrays Rotation.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Arrays Rotation\obj\Debug\net6.0\Arrays Rotation.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Arrays Rotation\obj\Debug\net6.0\refint\Arrays Rotation.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Arrays Rotation\obj\Debug\net6.0\Arrays Rotation.pdb
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Arrays Rotation\obj\Debug\net6.0\Arrays Rotation.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Arrays Rotation\obj\Debug\net6.0\ref\Arrays Rotation.dll
