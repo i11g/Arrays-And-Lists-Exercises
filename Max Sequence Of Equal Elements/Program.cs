@@ -1,25 +1,35 @@
-﻿List<int> numbers=Console.ReadLine().Split(' ').Select(int.Parse).ToList();
-List <int> sequence=new List<int>();
-int maxSequence = 0;
-List<int> max=new List<int>();
+﻿using System.Diagnostics.CodeAnalysis;
 
-for (int i = 0; i < numbers.Count-1; i++)
+namespace Max_Sequence_Of_Equal_Elements
 {
-    if (numbers[i] == numbers[i + 1])
+    internal class Program
     {
-        sequence.Add(numbers[i]);
-        
-        if (sequence.Count > maxSequence)
+        static void Main(string[] args)
         {
-            maxSequence = sequence.Count;
-            max.AddRange(sequence);            
+            int[] numbers=Console.ReadLine().Split(' ').Select(int.Parse).ToArray();
+
+            int longestSequence = 0;
+            int sequesnce = 1;
+            for (int i = 0; i < numbers.Length-1; i++)
+            {
+                          
+              if (numbers[i] == numbers[i+1])
+                    {
+                        sequesnce++;
+                    }              
+
+              if(sequesnce > longestSequence)
+                    {
+                        longestSequence = sequesnce;
+                    }
+
+              if (numbers[i] != numbers[i + 1])
+                {
+                    sequesnce = 1;
+              
+                }
+            }
+                Console.WriteLine(longestSequence);
+            }
         }
-        
     }
-    if (numbers[i] != numbers[i + 1])
-        {
-        sequence.Clear();
-        }
-    
-}
- Console.WriteLine(string.Join(" ", max));

@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Equal Sums\bin\Debug\net6.0\Equal Sums.exe
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Equal Sums\bin\Debug\net6.0\Equal Sums.deps.json
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Equal Sums\bin\Debug\net6.0\Equal Sums.runtimeconfig.json
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Equal Sums\bin\Debug\net6.0\Equal Sums.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Equal Sums\bin\Debug\net6.0\Equal Sums.pdb
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Equal Sums\obj\Debug\net6.0\Equal Sums.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Equal Sums\obj\Debug\net6.0\Equal Sums.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Equal Sums\obj\Debug\net6.0\Equal Sums.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Equal Sums\obj\Debug\net6.0\Equal Sums.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Equal Sums\obj\Debug\net6.0\Equal Sums.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Equal Sums\obj\Debug\net6.0\refint\Equal Sums.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Equal Sums\obj\Debug\net6.0\Equal Sums.pdb
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Equal Sums\obj\Debug\net6.0\Equal Sums.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Equal Sums\obj\Debug\net6.0\ref\Equal Sums.dll

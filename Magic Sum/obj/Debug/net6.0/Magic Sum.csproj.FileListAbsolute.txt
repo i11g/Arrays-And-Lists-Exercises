@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Magic Sum\bin\Debug\net6.0\Magic Sum.exe
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Magic Sum\bin\Debug\net6.0\Magic Sum.deps.json
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Magic Sum\bin\Debug\net6.0\Magic Sum.runtimeconfig.json
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Magic Sum\bin\Debug\net6.0\Magic Sum.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Magic Sum\bin\Debug\net6.0\Magic Sum.pdb
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Magic Sum\obj\Debug\net6.0\Magic Sum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Magic Sum\obj\Debug\net6.0\Magic Sum.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Magic Sum\obj\Debug\net6.0\Magic Sum.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Magic Sum\obj\Debug\net6.0\Magic Sum.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Magic Sum\obj\Debug\net6.0\Magic Sum.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Magic Sum\obj\Debug\net6.0\refint\Magic Sum.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Magic Sum\obj\Debug\net6.0\Magic Sum.pdb
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Magic Sum\obj\Debug\net6.0\Magic Sum.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays More Exersizes\Magic Sum\obj\Debug\net6.0\ref\Magic Sum.dll
