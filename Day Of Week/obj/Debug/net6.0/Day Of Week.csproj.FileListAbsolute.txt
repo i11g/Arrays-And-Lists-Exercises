@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Day Of Week\bin\Debug\net6.0\Day Of Week.exe
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Day Of Week\bin\Debug\net6.0\Day Of Week.deps.json
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Day Of Week\bin\Debug\net6.0\Day Of Week.runtimeconfig.json
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Day Of Week\bin\Debug\net6.0\Day Of Week.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Day Of Week\bin\Debug\net6.0\Day Of Week.pdb
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Day Of Week\obj\Debug\net6.0\Day Of Week.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Day Of Week\obj\Debug\net6.0\Day Of Week.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Day Of Week\obj\Debug\net6.0\Day Of Week.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Day Of Week\obj\Debug\net6.0\Day Of Week.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Day Of Week\obj\Debug\net6.0\Day Of Week.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Day Of Week\obj\Debug\net6.0\refint\Day Of Week.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Day Of Week\obj\Debug\net6.0\Day Of Week.pdb
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Day Of Week\obj\Debug\net6.0\Day Of Week.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Day Of Week\obj\Debug\net6.0\ref\Day Of Week.dll

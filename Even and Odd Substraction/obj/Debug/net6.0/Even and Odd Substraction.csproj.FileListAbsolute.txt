@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Even and Odd Substraction\bin\Debug\net6.0\Even and Odd Substraction.exe
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Even and Odd Substraction\bin\Debug\net6.0\Even and Odd Substraction.deps.json
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Even and Odd Substraction\bin\Debug\net6.0\Even and Odd Substraction.runtimeconfig.json
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Even and Odd Substraction\bin\Debug\net6.0\Even and Odd Substraction.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Even and Odd Substraction\bin\Debug\net6.0\Even and Odd Substraction.pdb
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Even and Odd Substraction\obj\Debug\net6.0\Even and Odd Substraction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Even and Odd Substraction\obj\Debug\net6.0\Even and Odd Substraction.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Even and Odd Substraction\obj\Debug\net6.0\Even and Odd Substraction.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Even and Odd Substraction\obj\Debug\net6.0\Even and Odd Substraction.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Even and Odd Substraction\obj\Debug\net6.0\Even and Odd Substraction.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Even and Odd Substraction\obj\Debug\net6.0\refint\Even and Odd Substraction.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Even and Odd Substraction\obj\Debug\net6.0\Even and Odd Substraction.pdb
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Even and Odd Substraction\obj\Debug\net6.0\Even and Odd Substraction.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Day Of Week\Even and Odd Substraction\obj\Debug\net6.0\ref\Even and Odd Substraction.dll
