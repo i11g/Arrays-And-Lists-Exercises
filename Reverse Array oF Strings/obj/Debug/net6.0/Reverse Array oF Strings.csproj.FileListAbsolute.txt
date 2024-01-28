@@ -1,0 +1,14 @@
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Reverse Array oF Strings\obj\Debug\net6.0\Reverse Array oF Strings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Reverse Array oF Strings\obj\Debug\net6.0\Reverse Array oF Strings.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Reverse Array oF Strings\obj\Debug\net6.0\Reverse Array oF Strings.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Reverse Array oF Strings\obj\Debug\net6.0\Reverse Array oF Strings.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Reverse Array oF Strings\bin\Debug\net6.0\Reverse Array oF Strings.exe
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Reverse Array oF Strings\bin\Debug\net6.0\Reverse Array oF Strings.deps.json
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Reverse Array oF Strings\bin\Debug\net6.0\Reverse Array oF Strings.runtimeconfig.json
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Reverse Array oF Strings\bin\Debug\net6.0\Reverse Array oF Strings.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Reverse Array oF Strings\bin\Debug\net6.0\Reverse Array oF Strings.pdb
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Reverse Array oF Strings\obj\Debug\net6.0\Reverse Array oF Strings.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Reverse Array oF Strings\obj\Debug\net6.0\refint\Reverse Array oF Strings.dll
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Reverse Array oF Strings\obj\Debug\net6.0\Reverse Array oF Strings.pdb
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Reverse Array oF Strings\obj\Debug\net6.0\Reverse Array oF Strings.genruntimeconfig.cache
+C:\Users\Admin\Desktop\Visual Studio Prog\Arrays Lab\Reverse Array oF Strings\obj\Debug\net6.0\ref\Reverse Array oF Strings.dll
