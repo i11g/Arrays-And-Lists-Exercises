@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Reverse an Array/1.0.0": {
+        "runtime": {
+          "Reverse an Array.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Reverse an Array/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
