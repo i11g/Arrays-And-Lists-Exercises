@@ -15,7 +15,7 @@ The course is part of SoftUni QA Automation Program and focus on:
 - Working with the Appium tool
 - Design and implement effective testing strategies
 - Identifying and addressing vulnerabilities in web applications
-- 
+ 
 ## Technologies Used
 - Java Script, Selenium, Appium
 
