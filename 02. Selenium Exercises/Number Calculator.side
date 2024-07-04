@@ -233,10 +233,252 @@
       "targets": [],
       "value": "invalid input"
     }]
+  }, {
+    "id": "fd0c4cb6-187f-4fc9-9dc6-e42308cd6251",
+    "name": "Verify that the dropdown menu (-) has correct value",
+    "commands": [{
+      "id": "def5b622-6b37-4019-b870-d33627336552",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a69b319-ba67-450d-a426-082ccd046fbd",
+      "comment": "",
+      "command": "click",
+      "target": "id=operation",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "94c06b87-0bd7-4ec8-b1f5-a90f59ae8981",
+      "comment": "",
+      "command": "select",
+      "target": "id=operation",
+      "targets": [],
+      "value": "label=- (subtract)"
+    }, {
+      "id": "1bd353cb-060f-404f-9127-b37f121c732c",
+      "comment": "",
+      "command": "verifySelectedValue",
+      "target": "id=operation",
+      "targets": [],
+      "value": "-"
+    }, {
+      "id": "83805241-6199-4b8d-bbd3-96c089a455d6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "6b2e2f41-064e-47ec-a169-76521aaf7d83",
+    "name": "Verify that the dropdown menu (*) has correct value",
+    "commands": [{
+      "id": "d30e9ed7-c9e2-464d-ae57-3e19bb22d154",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e66d1619-bdb5-4c81-a18c-923497eb7222",
+      "comment": "",
+      "command": "click",
+      "target": "id=operation",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bfdd57b-c1f1-454c-a213-ca9a9180d296",
+      "comment": "",
+      "command": "select",
+      "target": "id=operation",
+      "targets": [],
+      "value": "label=* (multiply)"
+    }, {
+      "id": "21b6d8db-6346-4e8d-b5a5-6aceba9bacdd",
+      "comment": "",
+      "command": "verifySelectedValue",
+      "target": "id=operation",
+      "targets": [],
+      "value": "*"
+    }, {
+      "id": "d9ca68e9-93ab-4b58-b520-0601f69979d6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "038a7e4f-2c01-4815-b784-3bd99610aeb0",
+    "name": "Verify that the dropdown menu (+ )has correct value",
+    "commands": [{
+      "id": "c42679dd-2cf0-4b1f-9a89-7370740f627b",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa008e8c-b11c-48f9-93c8-ac0cd00ee4cb",
+      "comment": "",
+      "command": "click",
+      "target": "id=operation",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bcd9479-5d7a-4fa7-8b70-1d47d6a53747",
+      "comment": "",
+      "command": "select",
+      "target": "id=operation",
+      "targets": [],
+      "value": "label=+ (sum)"
+    }, {
+      "id": "e4327ca7-e27b-4c2e-b5f7-f8128095c040",
+      "comment": "",
+      "command": "verifySelectedValue",
+      "target": "id=operation",
+      "targets": [],
+      "value": "+"
+    }, {
+      "id": "67d8ff7f-b343-4c33-ad2c-dcdb64312dce",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "660ec694-f88b-4ddf-83f7-ed47f4e01d97",
+    "name": "Verify that the dropdown menu (divide) has correct value",
+    "commands": [{
+      "id": "e74c1eb4-f7d7-446c-b195-87c9ec5caeb1",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29f4bee3-461f-43c2-bf03-81320b7e3578",
+      "comment": "",
+      "command": "click",
+      "target": "id=operation",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "130387bd-af60-4bbf-b2dd-919f8a04aa1d",
+      "comment": "",
+      "command": "select",
+      "target": "id=operation",
+      "targets": [],
+      "value": "label=/ (divide)"
+    }, {
+      "id": "466ea0f1-8b12-4633-b5c9-02832fbba927",
+      "comment": "",
+      "command": "verifySelectedValue",
+      "target": "id=operation",
+      "targets": [],
+      "value": "/"
+    }, {
+      "id": "9bcdaab2-fc1f-41ef-b967-8e3f1d122f32",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "31b35408-adb9-4831-9a94-7b8d674f438b",
+    "name": "Verify operation sum with valid inputs",
+    "commands": []
+  }, {
+    "id": "3a58ad56-739d-4bbb-813a-bbeea1b3baf2",
+    "name": "Verify operation subtract with valid inputs",
+    "commands": []
+  }, {
+    "id": "3b8c9f51-76f8-44ac-9916-637b394b8236",
+    "name": "Verify operation multiply  with valid inputs",
+    "commands": []
+  }, {
+    "id": "307b410c-db75-4186-a9e5-0c93a982f631",
+    "name": "Verify operation divide with valid inputs",
+    "commands": [{
+      "id": "40e54aa5-d946-4eda-92a1-8b0bacc24f71",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fe9dd57-2400-4f1b-85e2-2132999fb3b2",
+      "comment": "",
+      "command": "type",
+      "target": "id=number1",
+      "targets": [],
+      "value": "1"
+    }, {
+      "id": "eabc7ae4-04be-4c8d-9606-57ac5b6ec940",
+      "comment": "",
+      "command": "click",
+      "target": "id=operation",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4fd1d41e-b318-40f8-beb8-99dcf1f1ed9c",
+      "comment": "",
+      "command": "select",
+      "target": "id=operation",
+      "targets": [],
+      "value": "label=+ (sum)"
+    }, {
+      "id": "ffbf261b-9566-4064-8add-4f9fde6f7c1c",
+      "comment": "",
+      "command": "type",
+      "target": "id=number2",
+      "targets": [],
+      "value": "10"
+    }, {
+      "id": "e2f69640-df58-4930-9830-2dd48add51d4",
+      "comment": "",
+      "command": "click",
+      "target": "id=calcButton",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "604c4103-1457-43ce-9855-3a970f7c87ad",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=pre",
+      "targets": [],
+      "value": "11"
+    }, {
+      "id": "d860d889-a123-47e0-99e3-f11199cefb52",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "74bddee2-e2f0-4721-9f12-5b03673ed437",
     "name": "Invalid Inputs",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6a05ce36-a3ac-4182-a9a3-1cd4feee1fa1", "fd7f4ec1-32b4-484f-8b57-a33f5debab80", "dd8f95b6-de62-4515-a49f-03fae51ba1f2", "3e1d0dd4-ca61-4333-8d85-e77218edcd43", "a1586df3-361f-4999-ada2-4e06a697c1bf"]
+  }, {
+    "id": "507a4a58-c79e-446a-b2c3-9ff9fc262496",
+    "name": "Operation Selection",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6b2e2f41-064e-47ec-a169-76521aaf7d83", "038a7e4f-2c01-4815-b784-3bd99610aeb0", "fd0c4cb6-187f-4fc9-9dc6-e42308cd6251", "660ec694-f88b-4ddf-83f7-ed47f4e01d97"]
+  }, {
+    "id": "14cf44f2-c051-4ff5-928b-ce66116e8bec",
+    "name": "Calculation",
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
