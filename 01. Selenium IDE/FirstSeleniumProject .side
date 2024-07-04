@@ -90,6 +90,155 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "4bd28fdb-a30e-43fa-88a9-1e0d55beeb7c",
+    "name": "If Else tests",
+    "commands": [{
+      "id": "6cb4d440-81c8-4828-a799-96e7b77b8392",
+      "comment": "",
+      "command": "open",
+      "target": "https://katalon-demo-cura.herokuapp.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8934177d-0b45-441e-a81f-98fd4394221e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "790x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2201e5c-791b-4dcf-9cfa-ff4badb35dcc",
+      "comment": "",
+      "command": "storeTitle",
+      "target": "",
+      "targets": [],
+      "value": "pageTitle"
+    }, {
+      "id": "81dfd6ec-9b20-4188-a206-94509876e213",
+      "comment": "",
+      "command": "if",
+      "target": "${pageTitle} === \"CURA Healthcare Service\"",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23771cda-c61c-479c-b929-d846142a70e6",
+      "comment": "",
+      "command": "echo",
+      "target": "Matched",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d76ba909-fdf6-43e2-b9bf-2e925639c906",
+      "comment": "",
+      "command": "else",
+      "target": "Unmatched",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1abd24c3-431b-4143-885e-3b737671632f",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "06e1f9fd-47a9-44fc-ba5d-36d902c4c455",
+    "name": "Loops",
+    "commands": [{
+      "id": "5934c8cf-4e6f-457b-8255-efbbf8a41fbe",
+      "comment": "",
+      "command": "times",
+      "target": "1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c45f8ddb-6183-4282-be05-943549044a2a",
+      "comment": "",
+      "command": "open",
+      "target": "https://katalon-demo-cura.herokuapp.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5fd76e8-0018-4305-bb72-f138b8142bd8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-bars",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98b93cfc-5845-4f3c-a168-36c5aed07181",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13b631a6-3fc7-496e-ad2b-0dde2d8b23d5",
+      "comment": "",
+      "command": "type",
+      "target": "id=txt-username",
+      "targets": [],
+      "value": "jli"
+    }, {
+      "id": "f6738919-7994-4de4-bac8-2e302243a15b",
+      "comment": "",
+      "command": "type",
+      "target": "id=txt-password",
+      "targets": [],
+      "value": "123456"
+    }, {
+      "id": "b5e46396-d36d-41ee-96a7-cee42627f1d9",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "277ec276-7eb8-4c98-be5b-fc9fd24bfdb5",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c22f15aa-e1d2-41a4-af19-8b0a9ca54bdc",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"],
+        ["xpath=//html[contains(.,'Preparing to run your test')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09d129c0-3890-4cf8-9bc1-9f3d783e3d66",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"],
+        ["xpath=//html[contains(.,'Preparing to run your test')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "10505745-8b7f-4a81-a3eb-a7388bcff354",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2792f0bf-7c9a-4d3e-bbf9-efd12a79b634",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "4f99bbe2-1cc6-497a-8927-bb73d7ee1f34",

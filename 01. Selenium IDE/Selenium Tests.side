@@ -1,0 +1,95 @@
+{
+  "id": "98de8ce1-fe2f-4170-b2fe-28baa3580379",
+  "version": "2.0",
+  "name": "Selenium Tests",
+  "url": "",
+  "tests": [{
+    "id": "695d2a47-aa84-4651-975a-309cc25e4882",
+    "name": "Do Tests",
+    "commands": [{
+      "id": "c482027f-19af-466b-8832-0c1d4ace8e05",
+      "comment": "",
+      "command": "executeScript",
+      "target": "0",
+      "targets": [],
+      "value": "check"
+    }, {
+      "id": "4f51ff85-82e5-43a1-9c87-e25fc7f3e501",
+      "comment": "",
+      "command": "do",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9dde097e-5c30-45d4-9386-5a515b3d191c",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${check}+1",
+      "targets": [],
+      "value": "check"
+    }, {
+      "id": "de8ba268-37c6-40b1-8101-4ab45ed238d2",
+      "comment": "",
+      "command": "repeatIf",
+      "target": "${check}<3",
+      "targets": [],
+      "value": "3"
+    }, {
+      "id": "03780ee1-d507-457e-84f6-9a432a8cd9a3",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "578005ee-21d1-41cb-91f1-ce2e9f818aaf",
+    "name": "For Each",
+    "commands": [{
+      "id": "5b0bcfea-ba80-48b0-a7b1-2b2a45fd0353",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8d1711d-b239-4415-b433-8368c63b7514",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return[\"Audi\", 'BMW',\"Scoda\"]",
+      "targets": [],
+      "value": "x"
+    }, {
+      "id": "3dcec134-5d2f-49e0-8a02-89979acdbba4",
+      "comment": "",
+      "command": "for aech",
+      "target": "x",
+      "targets": [],
+      "value": "iterrable"
+    }, {
+      "id": "67a69801-9f88-4494-9813-0854b739c681",
+      "comment": "",
+      "command": "echo",
+      "target": "${iterable}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f067a627-24db-4dff-8baa-f30d922c2374",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d06dbe56-84b1-4ad8-be9f-8e6dc368f7f9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["695d2a47-aa84-4651-975a-309cc25e4882"]
+  }],
+  "urls": [],
+  "plugins": []
+}

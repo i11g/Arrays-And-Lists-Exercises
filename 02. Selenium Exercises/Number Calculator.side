@@ -1,0 +1,247 @@
+{
+  "id": "9a449aa8-4ac3-40f8-9b2a-df0219d96e7c",
+  "version": "2.0",
+  "name": "Number Calculator",
+  "url": "http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com/number-calculator/ ",
+  "tests": [{
+    "id": "6a05ce36-a3ac-4182-a9a3-1cd4feee1fa1",
+    "name": "First Number Invalid Inputs",
+    "commands": [{
+      "id": "aef8b71d-f750-40c8-a53d-a53d07fe4239",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4a134b5-6c9d-4928-8727-09903c61cbcf",
+      "comment": "",
+      "command": "type",
+      "target": "id=number1",
+      "targets": [],
+      "value": "abc"
+    }, {
+      "id": "c1e02345-fd5c-4647-bd59-3358e35a2aef",
+      "comment": "",
+      "command": "click",
+      "target": "id=operation",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a20e4b1e-b420-4970-ba55-04072c6319d8",
+      "comment": "",
+      "command": "select",
+      "target": "id=operation",
+      "targets": [],
+      "value": "label=+ (sum)"
+    }, {
+      "id": "49cb7454-a2c3-4d59-a302-d91bce2a30d6",
+      "comment": "",
+      "command": "type",
+      "target": "id=number2",
+      "targets": [],
+      "value": "10"
+    }, {
+      "id": "0affc942-5f38-4765-844f-ea775cf48b58",
+      "comment": "",
+      "command": "click",
+      "target": "id=calcButton",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a2716c0-5986-455a-9668-02f207a5136b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=i",
+      "targets": [],
+      "value": "invalid input"
+    }, {
+      "id": "93ef856f-7382-4b1a-8dcc-ba2da535fed8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a1586df3-361f-4999-ada2-4e06a697c1bf",
+    "name": "Second Number Invalid Input",
+    "commands": [{
+      "id": "2076593d-701b-4ca5-83aa-fa6b9378ccbd",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a40e8bf2-c144-46a8-9555-51d693ada880",
+      "comment": "",
+      "command": "type",
+      "target": "id=number1",
+      "targets": [],
+      "value": "10"
+    }, {
+      "id": "0b972f05-6723-4084-886b-f9ceb2670310",
+      "comment": "",
+      "command": "click",
+      "target": "id=operation",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d7b1e02-a411-4131-bcaf-7163ebccee07",
+      "comment": "",
+      "command": "select",
+      "target": "id=operation",
+      "targets": [],
+      "value": "label=- (subtract)"
+    }, {
+      "id": "14a287ee-fa05-45e9-b1f8-69d5c4420d58",
+      "comment": "",
+      "command": "type",
+      "target": "id=number2",
+      "targets": [],
+      "value": "abc"
+    }, {
+      "id": "6d7e757a-7014-4cc6-93e0-d894e1d50564",
+      "comment": "",
+      "command": "click",
+      "target": "id=calcButton",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "848ffaf1-56de-4f7c-a302-65f4b9585a91",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=I",
+      "targets": [],
+      "value": "invalid input"
+    }]
+  }, {
+    "id": "3e1d0dd4-ca61-4333-8d85-e77218edcd43",
+    "name": "Missing value first number",
+    "commands": [{
+      "id": "3c72517c-84fc-4523-ac83-44ea2027db2d",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4258589d-aeb8-4baa-897d-1cd4bdb06341",
+      "comment": "",
+      "command": "click",
+      "target": "id=operation",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "377638ef-fcd6-4652-9300-e8686b1dc083",
+      "comment": "",
+      "command": "select",
+      "target": "id=operation",
+      "targets": [],
+      "value": "label=+ (sum)"
+    }, {
+      "id": "54f1bc79-fc47-481c-8e4f-d9a71e1c2c4b",
+      "comment": "",
+      "command": "type",
+      "target": "id=number2",
+      "targets": [],
+      "value": "10"
+    }, {
+      "id": "7444f898-80a1-4842-b47f-f31a096b02f6",
+      "comment": "",
+      "command": "click",
+      "target": "id=calcButton",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fba18544-ff2b-4ff7-b49d-067190a56e3e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=i",
+      "targets": [],
+      "value": "invalid input"
+    }]
+  }, {
+    "id": "dd8f95b6-de62-4515-a49f-03fae51ba1f2",
+    "name": "Missing second number",
+    "commands": [{
+      "id": "43032f58-3a3d-4b7d-8f39-b1422250219f",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18eead1e-7b05-4f2a-a27f-2fca5bd13a9a",
+      "comment": "",
+      "command": "type",
+      "target": "id=number1",
+      "targets": [],
+      "value": "10"
+    }, {
+      "id": "6f125750-e142-445e-a445-87283331a18d",
+      "comment": "",
+      "command": "click",
+      "target": "id=operation",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a89673fa-3df1-4103-8157-0e48a103642e",
+      "comment": "",
+      "command": "select",
+      "target": "id=operation",
+      "targets": [],
+      "value": "label=+ (sum)"
+    }, {
+      "id": "33df1c01-42c2-48e9-adc0-4f075de5108c",
+      "comment": "",
+      "command": "click",
+      "target": "id=calcButton",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1d8de2a3-cb63-46f6-b1ff-ba19aeca0185",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=i",
+      "targets": [],
+      "value": "invalid input"
+    }]
+  }, {
+    "id": "fd7f4ec1-32b4-484f-8b57-a33f5debab80",
+    "name": "Missing both numbers",
+    "commands": [{
+      "id": "8932f5af-7d53-4cc9-b6e7-a28b315a5cdc",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ef3b583-e37e-4e53-babf-b4bb59da271a",
+      "comment": "",
+      "command": "click",
+      "target": "id=calcButton",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bcb4932d-f023-4ca7-b72e-21048ad00d0b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=i",
+      "targets": [],
+      "value": "invalid input"
+    }]
+  }],
+  "suites": [{
+    "id": "74bddee2-e2f0-4721-9f12-5b03673ed437",
+    "name": "Invalid Inputs",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com/number-calculator/"],
+  "plugins": []
+}
