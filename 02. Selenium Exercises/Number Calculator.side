@@ -400,7 +400,21 @@
   }, {
     "id": "3b8c9f51-76f8-44ac-9916-637b394b8236",
     "name": "Verify operation multiply  with valid inputs",
-    "commands": []
+    "commands": [{
+      "id": "7375b187-0c20-4c96-8c53-45e120af7da1",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f86ac3f3-9400-429d-b3ac-d34fc87560a5",
+      "comment": "",
+      "command": "type",
+      "target": "id=number1",
+      "targets": [],
+      "value": "2"
+    }]
   }, {
     "id": "307b410c-db75-4186-a9e5-0c93a982f631",
     "name": "Verify operation divide with valid inputs",
@@ -417,7 +431,7 @@
       "command": "type",
       "target": "id=number1",
       "targets": [],
-      "value": "1"
+      "value": "10"
     }, {
       "id": "eabc7ae4-04be-4c8d-9606-57ac5b6ec940",
       "comment": "",
@@ -431,14 +445,14 @@
       "command": "select",
       "target": "id=operation",
       "targets": [],
-      "value": "label=+ (sum)"
+      "value": "label=/ (divide)"
     }, {
       "id": "ffbf261b-9566-4064-8add-4f9fde6f7c1c",
       "comment": "",
       "command": "type",
       "target": "id=number2",
       "targets": [],
-      "value": "10"
+      "value": "2"
     }, {
       "id": "e2f69640-df58-4930-9830-2dd48add51d4",
       "comment": "",
@@ -452,7 +466,7 @@
       "command": "assertText",
       "target": "css=pre",
       "targets": [],
-      "value": "11"
+      "value": "5"
     }, {
       "id": "d860d889-a123-47e0-99e3-f11199cefb52",
       "comment": "",
