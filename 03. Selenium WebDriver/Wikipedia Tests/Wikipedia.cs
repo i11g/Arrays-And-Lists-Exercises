@@ -35,8 +35,8 @@ namespace Wikipedia_Tests
 
         public void TestQualityAssurance()
         {
-            
-                      
+
+            driver.Manage().Window.Maximize();         
             driver.FindElement(By.Id("searchInput")).SendKeys("Quality Assurance" + Keys.Enter);
 
             Assert.That(driver.Title, Is.EqualTo("Quality assurance - Wikipedia"));

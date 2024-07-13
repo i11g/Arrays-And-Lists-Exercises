@@ -20,6 +20,9 @@ namespace Exercise_1
             //Click on the element
 
             searchInput.Click();
+            Console.WriteLine(searchInput.GetCssValue("background-color"));
+            Console.WriteLine(searchInput.GetDomProperty("size"));
+
 
             //Type Quality Assurance
 
@@ -29,6 +32,10 @@ namespace Exercise_1
             var pageTitle = driver.Title;
 
             Console.WriteLine(pageTitle); 
+
+            //Quit
+
+            driver.Quit();
 
 
         }
