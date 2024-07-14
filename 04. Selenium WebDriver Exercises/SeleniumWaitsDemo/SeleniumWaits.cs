@@ -24,11 +24,16 @@ namespace SeleniumWaitsDemo
         }
 
         [Test]
-        public void RedBoxInteraction()
+        public void RedBoxInteraction() 
         {
+                       
             driver.Navigate().GoToUrl("https://www.selenium.dev/selenium/web/dynamic.html");
+
+            driver.Manage().Timeouts().ImplicitWait=TimeSpan.FromSeconds(10);
+
             IWebElement addButtton=driver.FindElement(By.XPath("//input[@id='adder']"));
             addButtton.Click();
+
             IWebElement redBox = driver.FindElement(By.XPath("//div[@id='box0']"));
 
             Assert.True(redBox.Displayed);
