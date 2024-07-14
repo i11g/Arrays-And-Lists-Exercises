@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34601.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandlingFormInput", "HandlingFormInput.csproj", "{C6100EE9-8EA8-4FB2-B531-0A32D15E5FAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandlingFormInput", "HandlingFormInput.csproj", "{C6100EE9-8EA8-4FB2-B531-0A32D15E5FAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithWebTables", "..\WorkingWithWebTables\WorkingWithWebTables.csproj", "{C661719E-04AD-4603-B2F1-86DB136D45B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{C6100EE9-8EA8-4FB2-B531-0A32D15E5FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6100EE9-8EA8-4FB2-B531-0A32D15E5FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6100EE9-8EA8-4FB2-B531-0A32D15E5FAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C661719E-04AD-4603-B2F1-86DB136D45B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C661719E-04AD-4603-B2F1-86DB136D45B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C661719E-04AD-4603-B2F1-86DB136D45B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C661719E-04AD-4603-B2F1-86DB136D45B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

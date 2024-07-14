@@ -56,12 +56,15 @@ namespace WebDriverProject
             //fill in company 
 
             driver.FindElement(By.XPath("//td[@class='fieldValue']//input[@name='company']")).SendKeys("Oracle");
+            
             //adress 
             driver.FindElement(By.XPath("//td[@class='fieldValue']//input[@name='street_address']")).SendKeys("Street");
             driver.FindElement(By.XPath("//td[@class='fieldValue']//input[@name='suburb']")).SendKeys("random suburb");
             driver.FindElement(By.XPath("//td[@class='fieldValue']//input[@name='postcode']")).SendKeys("00002");
             driver.FindElement(By.XPath("//td[@class='fieldValue']//input[@name='city']")).SendKeys("Kaspichan");
-            driver.FindElement(By.XPath("//td[@class='fieldValue']//input[@name='state']")).SendKeys("Vratca");
+            driver.FindElement(By.XPath("//td[@class='fieldValue']//input[@name='state']")).SendKeys("Vratca"); 
+
+            //Select Element
 
 
         }
