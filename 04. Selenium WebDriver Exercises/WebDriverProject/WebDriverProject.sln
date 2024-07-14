@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandlingFormInput", "Handli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithWebTables", "..\WorkingWithWebTables\WorkingWithWebTables.csproj", "{C661719E-04AD-4603-B2F1-86DB136D45B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DropDownPractice", "..\DropDownPractice\DropDownPractice.csproj", "{473AFBC3-6AC2-4E90-AC89-6F2A64CA4254}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C661719E-04AD-4603-B2F1-86DB136D45B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C661719E-04AD-4603-B2F1-86DB136D45B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C661719E-04AD-4603-B2F1-86DB136D45B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{473AFBC3-6AC2-4E90-AC89-6F2A64CA4254}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{473AFBC3-6AC2-4E90-AC89-6F2A64CA4254}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{473AFBC3-6AC2-4E90-AC89-6F2A64CA4254}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{473AFBC3-6AC2-4E90-AC89-6F2A64CA4254}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
