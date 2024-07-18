@@ -41,5 +41,49 @@ namespace StudentRegistryApp.Tests.cs
             Assert.That(addStudentPage.IsOpen(), Is.True);
         }
 
+        [Test] 
+
+        public void Tests_AddStudentPage_AddValidStudent ()
+        {
+            AddStudentPage addStudentPage = new AddStudentPage(driver);
+            addStudentPage.Open();
+
+            string name = GetRandomName();
+            string email = GetRandomEmail(name);
+
+            addStudentPage.AddStudent(name, email);
+            Assert.That(new ViewStudentsPage(driver).IsOpen(), Is.True);
+
+            //var newStudentString = "name" + "(email)";
+           
+        }
+        [Test] 
+
+        public void Tests_AddStudentPage_InvalidStudent()
+        {
+            AddStudentPage studentAddPage = new AddStudentPage(driver);
+            studentAddPage.Open();
+
+            studentAddPage.AddStudent("", "aada@gmail.com");
+            Assert.That(studentAddPage.IsOpen(), Is.True);
+            Assert.That(studentAddPage.GetErrorMessage(), Is.EqualTo("Cannot add student. Name and email fields are required!"));
+        }
+
+        public string GetRandomName()
+        {
+            Random random= new Random();
+            string[] names = { "Pesho", "Gosho", "Koycho", "Gesho" };
+            int randomNumber = random.Next(100, 999);
+            string name = names[names.Length - 1] + randomNumber;
+            return name;
+        } 
+
+        public string GetRandomEmail(string name)
+        {
+            Random random = new Random();
+            int randomNumber = random.Next(1, 1000);
+            string randomEmail = name + randomNumber + "@gmail.com";
+            return randomEmail;
+        }
     }
 }
