@@ -1,6 +1,4 @@
-﻿
-
-using StudentRegistryApp.Pages.cs;
+﻿using StudentRegistryApp.Pages.cs;
 
 namespace StudentRegistryApp.Tests.cs
 {
