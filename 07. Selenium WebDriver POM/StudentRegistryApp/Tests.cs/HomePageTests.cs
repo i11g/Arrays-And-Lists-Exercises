@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace StudentRegistryApp.Tests.cs
 {
-    internal class HomePageTests
+    public class HomePageTests
     {
     }
 }

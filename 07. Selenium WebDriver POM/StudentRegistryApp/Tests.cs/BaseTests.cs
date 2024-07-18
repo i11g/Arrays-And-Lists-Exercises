@@ -1,12 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+
 
 namespace StudentRegistryApp.Tests.cs
 {
-    internal class BaseTests
+    public class BaseTests
     {
+        protected IWebDriver driver;
+
+        [OneTimeSetUp] 
+
+        public void OneTimeSetup()
+        {
+            driver = new ChromeDriver (); 
+        }
     }
 }
