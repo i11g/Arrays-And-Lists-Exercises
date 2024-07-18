@@ -21,7 +21,7 @@ namespace StudentRegistryApp.Pages.cs
 
         public string[] GetRegisterStudents ()
         {
-            var elementsStudents=this.ListItemsStudents.Select(s=>s.Text).ToArray();
+            var elementsStudents=this.ListItemsStudents.Select(students=>students.Text).ToArray();
             return elementsStudents;
         }
 

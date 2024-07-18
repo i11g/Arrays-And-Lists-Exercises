@@ -1,9 +1,5 @@
 ﻿using OpenQA.Selenium;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace StudentRegistryApp.Pages.cs
 {
@@ -16,7 +12,13 @@ namespace StudentRegistryApp.Pages.cs
 
         public override string PageUrl => "http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com:82/";
 
-        public IWebElement ElementStudentCount => driver.FindElement(By.XPath("//b")); 
+        public IWebElement ElementStudentCount => driver.FindElement(By.XPath("//b"));
         //driver.FindElement(By.Csslocator("body>p>b")
+
+        public int StudentsCount()
+        {
+            string studentsCount = ElementStudentCount.Text;
+            return int.Parse(studentsCount);
+        }
     }
 }

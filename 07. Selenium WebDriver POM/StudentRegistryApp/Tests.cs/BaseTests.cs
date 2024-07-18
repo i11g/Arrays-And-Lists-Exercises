@@ -14,5 +14,13 @@ namespace StudentRegistryApp.Tests.cs
         {
             driver = new ChromeDriver (); 
         }
+
+        [OneTimeTearDown]
+
+        public void OneTimeTearDown()
+        {
+            driver.Quit ();
+            driver.Dispose ();
+        }
     }
 }

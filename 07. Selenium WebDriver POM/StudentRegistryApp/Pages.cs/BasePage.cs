@@ -13,7 +13,7 @@ namespace StudentRegistryApp.Pages.cs
             driver.Manage().Timeouts().ImplicitWait=TimeSpan.FromSeconds(10);
         } 
 
-        public virtual string PageUrl { get; }
+        public virtual string PageUrl {get; }
 
         public IWebElement linkHomePage => driver.FindElement(By.XPath("//a[@href='/']"));
         //driver.FindElement(By.LinkedText("Home")
