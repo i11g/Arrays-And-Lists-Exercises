@@ -1,10 +1,8 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using SeleniumExtras.WaitHelpers;
+using System.Collections.ObjectModel;
+
 
 namespace POMExercise.Pages
 {
@@ -19,7 +17,14 @@ namespace POMExercise.Pages
             wait= new WebDriverWait(driver,TimeSpan.FromSeconds(10));
         }
 
-
+        protected IWebElement FindElement(By by )
+        {
+            return wait.Until(ExpectedConditions.ElementIsVisible(by));
+        } 
+        protected ReadOnlyCollection<IWebElement> FindElements(By by) 
+        {
+            return driver.FindElements(by); 
+        }
 
     }
 }
