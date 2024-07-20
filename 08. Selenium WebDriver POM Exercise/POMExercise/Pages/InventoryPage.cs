@@ -7,8 +7,8 @@ namespace POMExercise.Pages
 
         private readonly By shopingCart = By.XPath("//a[@class='shopping_cart_link']");
         //private readonly By shpCart = By.CssSelector(".shopping_cart_link");
-        private readonly By productsTitle = By.XPath("//span[@class='title']");
-        //private readonly By proTitle = By.ClassName("title");
+       //private readonly By productsTitle = By.XPath("//span[@class='title']");
+        private readonly By proTitle = By.ClassName("title");
         private readonly By productItems = By.XPath("//div[@class='inventory_item']");
         //private readonly By proItems = By.CssSelector(".inventory_item");
         public InventoryPage(IWebDriver driver) : base(driver)
@@ -18,14 +18,14 @@ namespace POMExercise.Pages
 
         public void AddToCartByIndex(int itemindex)
         {
-            var itemToAdd = By.XPath($"//div[@class='inventory_item']{itemindex}//button");
+            var itemToAdd = By.XPath($"//div[@class='inventory_item'][{itemindex}]//button");
             //div[@class='inventory_list']//div[@class='inventory_item']{itemindex}//button"
             Click(itemToAdd);
         } 
 
         public void AddToCartByName(string productName)
         {
-            var itemToAdd = By.XPath($"//div[text()={productName}]/ancestor::div[@class='inventory_item']//button");
+            var itemToAdd = By.XPath($"//div[text()='{productName}']/ancestor::div[@class='inventory_item']//button");
             Click(itemToAdd);
         } 
 
@@ -41,7 +41,7 @@ namespace POMExercise.Pages
 
         public bool IsPageLoaded()
         {
-            return GetText(productsTitle) == "Products" && driver.Url.Contains("inventory.html");
+            return GetText(proTitle) == "Products" && driver.Url.Contains("inventory.html");
         }
     }
 }

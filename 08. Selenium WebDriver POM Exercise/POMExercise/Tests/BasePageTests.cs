@@ -11,7 +11,9 @@ namespace POMExercise.Tests
 
         protected LoginPage loginPage; 
 
-        protected InventoryPage inventoryPage;
+        protected InventoryPage inventoryPage; 
+
+        protected CartPage cartPage;
         
         [SetUp]
         
@@ -25,6 +27,7 @@ namespace POMExercise.Tests
 
             loginPage = new LoginPage(driver);
             inventoryPage = new InventoryPage(driver);
+            cartPage = new CartPage(driver);
             
             
 
