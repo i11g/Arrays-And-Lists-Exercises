@@ -16,6 +16,8 @@ namespace POMExercise.Tests
         protected CartPage cartPage;
 
         protected CheckOutPage checkOutPage;
+
+        protected HiddenMenuPage hiddenMenuPage;
         
         [SetUp]
         
@@ -31,6 +33,7 @@ namespace POMExercise.Tests
             inventoryPage = new InventoryPage(driver);
             cartPage = new CartPage(driver);
             checkOutPage = new CheckOutPage(driver);
+            hiddenMenuPage = new HiddenMenuPage(driver);
             
             
 
