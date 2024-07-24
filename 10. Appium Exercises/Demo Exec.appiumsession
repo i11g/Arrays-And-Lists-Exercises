@@ -1,0 +1,57 @@
+{
+  "version": "1.0",
+  "caps": [
+    {
+      "type": "text",
+      "name": "platformName",
+      "value": "Android"
+    },
+    {
+      "type": "text",
+      "name": "appium:automationName",
+      "value": "UiAutomator2"
+    },
+    {
+      "type": "text",
+      "name": "appium:deviceName",
+      "value": "Pixel 7 API 35"
+    },
+    {
+      "type": "text",
+      "name": "appium:app",
+      "value": "C:\\com.example.androidappsummator.apk"
+    },
+    {
+      "type": "text",
+      "name": "appium:platformVersion",
+      "value": "15"
+    },
+    {
+      "type": "number",
+      "name": "appium:uiautomator2ServerInstallTimeout",
+      "value": 30000
+    }
+  ],
+  "server": {
+    "local": {},
+    "remote": {},
+    "sauce": {
+      "dataCenter": "us-west-1"
+    },
+    "headspin": {},
+    "browserstack": {},
+    "lambdatest": {},
+    "advanced": {},
+    "bitbar": {},
+    "kobiton": {},
+    "perfecto": {},
+    "pcloudy": {},
+    "testingbot": {},
+    "experitest": {},
+    "roboticmobi": {},
+    "remotetestkit": {},
+    "mobitru": {}
+  },
+  "serverType": "remote",
+  "visibleProviders": []
+}
