@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34601.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appium Exec", "Appium Exec.csproj", "{3A977C16-E021-466C-BA89-AD1791D3620D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A977C16-E021-466C-BA89-AD1791D3620D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A977C16-E021-466C-BA89-AD1791D3620D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A977C16-E021-466C-BA89-AD1791D3620D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A977C16-E021-466C-BA89-AD1791D3620D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70BA728C-625E-43F7-A965-D4117793FAB6}
+	EndGlobalSection
+EndGlobal
