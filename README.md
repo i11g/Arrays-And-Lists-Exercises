@@ -1,5 +1,5 @@
 # Front End Test Automation
-This repository contains solutions of the tasks and projects included in Front End Test Automation course. 
+This repository contains my solutions of the tasks and projects included in Front End Test Automation course. 
 
 
 ## Table of Contents
