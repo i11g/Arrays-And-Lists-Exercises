@@ -17,7 +17,8 @@ namespace TestProjects
         [SetUp]
         public void SetUp()
         {
-            this.driver = new ChromeDriver();
+            ChromeOptions options = new ChromeOptions();
+            this.driver = new RemoteWebDriver(new Uri("http://localhost:4444"), options);
             this.driver.Url = "https://localhost:7194/";
         }
 
