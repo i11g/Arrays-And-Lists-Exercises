@@ -1,0 +1,70 @@
+{
+  "id": "d89e4bef-694c-47a1-84bf-435c4e4f8bbd",
+  "version": "2.0",
+  "name": "Cura Health Care Service",
+  "url": "https://katalon-demo-cura.herokuapp.com/",
+  "tests": [{
+    "id": "c693345f-5302-4476-a5c5-1813b2a71ab3",
+    "name": "Verify the text and the elements of the footer ",
+    "commands": [{
+      "id": "d18d08c9-bdc6-4331-8832-32fe6a1564c6",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8e302d5-da86-4650-9a77-b92a55cba0d7",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=strong",
+      "targets": [],
+      "value": "CURA Healthcare Service"
+    }, {
+      "id": "b4efc167-1752-40fa-8a06-a487fc33a290",
+      "comment": "",
+      "command": "//assertText",
+      "target": "xpath=//div[@class='col-lg-10 col-lg-offset-1 text-center']//p[1]",
+      "targets": [],
+      "value": "Atlanta 550 Pharr Road NE Suite 525"
+    }, {
+      "id": "176639cb-14d2-4e88-8b6f-bd4015da46be",
+      "comment": "",
+      "command": "//assertText",
+      "target": "xpath=//div[@class='col-lg-10 col-lg-offset-1 text-center']//p[1]//br",
+      "targets": [],
+      "value": "Atlanta, GA 30305"
+    }, {
+      "id": "1301240d-704a-42bd-8403-4a7c12c09ed9",
+      "comment": "",
+      "command": "//assertText",
+      "target": "xpath=//ul[@class='list-unstyled']//li[1]//text()",
+      "targets": [],
+      "value": " (678) 813-1KMS"
+    }, {
+      "id": "e6f6eaa8-2d62-4654-a344-259ae198c7a0",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//ul[@class='list-unstyled']//li[2]//a",
+      "targets": [],
+      "value": "info@katalon.com"
+    }, {
+      "id": "c54448dd-5f86-4bb1-ab68-43073193fd02",
+      "comment": "",
+      "command": "//assertText",
+      "target": "xpath=//ul[@class='list-inline']//li[1]//a//i",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b6ada73c-2055-439f-a4ab-e2307e880a47",
+    "name": "Verify the Footer",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c693345f-5302-4476-a5c5-1813b2a71ab3"]
+  }],
+  "urls": ["https://katalon-demo-cura.herokuapp.com/"],
+  "plugins": []
+}
