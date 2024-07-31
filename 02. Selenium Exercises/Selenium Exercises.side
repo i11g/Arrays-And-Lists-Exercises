@@ -1,0 +1,70 @@
+{
+  "id": "cc705a31-3c33-49b3-9978-f0091a2515ff",
+  "version": "2.0",
+  "name": "Selenium Exercise",
+  "url": "http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com/number-calculator/  ",
+  "tests": [{
+    "id": "f49ec49c-75c2-4dcf-901f-b2940cd73b6c",
+    "name": "Test With Valid Numbers ",
+    "commands": [{
+      "id": "0f3dccc9-80c1-47a1-92e0-8ba496b5cf6b",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ffa7df6-e208-4780-9519-15fe7a933788",
+      "comment": "",
+      "command": "type",
+      "target": "id=number1",
+      "targets": [],
+      "value": "10"
+    }, {
+      "id": "aa0887d3-4f14-4356-bf69-360cbdffa86a",
+      "comment": "",
+      "command": "click",
+      "target": "id=operation",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5dc30f1e-f0b6-4e3a-85ab-1bade67e171b",
+      "comment": "",
+      "command": "select",
+      "target": "id=operation",
+      "targets": [],
+      "value": "label=+ (sum)"
+    }, {
+      "id": "d2d98646-d3f5-4f84-aecf-13b2b3f615e3",
+      "comment": "",
+      "command": "type",
+      "target": "id=number2",
+      "targets": [],
+      "value": "19"
+    }, {
+      "id": "fba628c5-8f2f-41c6-a668-ac2aa545d6c1",
+      "comment": "",
+      "command": "click",
+      "target": "id=calcButton",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6a5a701-840a-4a5c-b942-732063945a38",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=pre",
+      "targets": [],
+      "value": "29"
+    }]
+  }],
+  "suites": [{
+    "id": "ddf2908a-0260-4ab2-a3b8-6a8c0181886b",
+    "name": "Number Calculator Tests",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f49ec49c-75c2-4dcf-901f-b2940cd73b6c"]
+  }],
+  "urls": ["http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com/number-calculator/"],
+  "plugins": []
+}

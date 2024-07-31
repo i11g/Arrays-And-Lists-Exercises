@@ -9,17 +9,46 @@ using OpenQA.Selenium.Support.UI;
 
 namespace TestProjects
 {
+    [TestFixture("chrome")]
+    [TestFixture("edge")]
+    [TestFixture("firefox")]
     public class PracticeProjectTests
     {
         private IWebDriver driver;
         private int random;
 
+        private string browserType;
+        
+        public PracticeProjectTests(string  browserType)
+        {
+            this.browserType = browserType;
+        }
+
         [SetUp]
         public void SetUp()
         {
-            ChromeOptions options = new ChromeOptions();
-            this.driver = new RemoteWebDriver(new Uri("http://localhost:4444"), options);
+            var options = GetOptions(this.browserType);
+
+            this.driver = new RemoteWebDriver(new Uri("http://192.168.59.1:4444"), options);
+
             this.driver.Url = "https://localhost:7194/";
+        }
+
+        private DriverOptions GetOptions(string browserType)
+        {
+            if (browserType == "chrome")
+            {
+                return new ChromeOptions();
+            }
+            else if (browserType == "edge")
+            {
+                return new EdgeOptions();
+            }
+            else 
+            {
+                return new FirefoxOptions();
+            }
+
         }
 
         [Test]
