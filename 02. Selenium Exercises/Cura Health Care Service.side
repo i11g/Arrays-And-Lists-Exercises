@@ -16,14 +16,14 @@
     }, {
       "id": "d8e302d5-da86-4650-9a77-b92a55cba0d7",
       "comment": "",
-      "command": "assertText",
+      "command": "verifyText",
       "target": "css=strong",
       "targets": [],
       "value": "CURA Healthcare Service"
     }, {
       "id": "b4efc167-1752-40fa-8a06-a487fc33a290",
       "comment": "",
-      "command": "//assertText",
+      "command": "verifyText",
       "target": "xpath=//div[@class='col-lg-10 col-lg-offset-1 text-center']//p[1]",
       "targets": [],
       "value": "Atlanta 550 Pharr Road NE Suite 525"
@@ -53,6 +53,101 @@
       "comment": "",
       "command": "//assertText",
       "target": "xpath=//ul[@class='list-inline']//li[1]//a//i",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a399667a-ac9e-4653-ac14-49f1f23a419f",
+    "name": "Verify Text Elements  With Css locators",
+    "commands": [{
+      "id": "38c997d2-c3fe-49b8-b285-2ff0f5ee489c",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c7f5467b-e586-4ede-a6c0-10bf4255072a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=strong",
+      "targets": [],
+      "value": "CURA Healthcare Service"
+    }, {
+      "id": "e96802df-60bf-4a77-8c31-df07f0cb792d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(2)",
+      "targets": [],
+      "value": "Atlanta 550 Pharr Road NE Suite 525\\nAtlanta, GA 30305"
+    }, {
+      "id": "f9755da9-4bce-4833-9990-1a25f4967775",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.list-unstyled>li:nth-child(1)",
+      "targets": [],
+      "value": " (678) 813-1KMS"
+    }, {
+      "id": "4aec58fa-196a-4d10-8553-ac5d455688aa",
+      "comment": "",
+      "command": "verifyText",
+      "target": "linkText=info@katalon.com",
+      "targets": [],
+      "value": "info@katalon.com"
+    }, {
+      "id": "3ce8c7f1-e97b-46e7-9959-37436caf6a31",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.fa-facebook ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce4f7250-19a9-45e3-a5d6-48a1505b65c7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=ul.list-inline > li:nth-child(1) ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3fd7fc88-ae3f-4830-9dd7-a5e64e78f182",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=ul.list-inline > li:nth-child(2) ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f795ce3b-5a1e-4473-96e4-513ba6542329",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.fa-twitter",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ff4994d-1b39-4628-bb25-3e7a8a96730b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=ul.list-inline > li:nth-child(3)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8864f285-ab5c-4c5f-8057-70558151499a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.fa-dribbble ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d15d237-3444-4020-bbc8-293a2b37782d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.text-muted",
+      "targets": [],
+      "value": "Copyright © CURA Healthcare Service 2024"
+    }, {
+      "id": "ea59258f-5da9-44ea-93a9-ed9fca8fa5e9",
+      "comment": "",
+      "command": "close",
+      "target": "",
       "targets": [],
       "value": ""
     }]
