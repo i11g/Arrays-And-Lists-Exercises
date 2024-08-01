@@ -1,0 +1,56 @@
+{
+  "id": "eca759bd-9271-4151-8087-723dc00338ea",
+  "version": "2.0",
+  "name": "Saeucedemo Tests",
+  "url": "https://www.saucedemo.com/",
+  "tests": [{
+    "id": "f9db5023-d87c-4b45-97fe-8bdf01ca13be",
+    "name": "Login with Invalid User",
+    "commands": [{
+      "id": "9f87a2f7-a0f4-4864-8bbb-a65304ba83d9",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ce93146-8410-41e9-9d89-6e4d9f4905d0",
+      "comment": "",
+      "command": "type",
+      "target": "id=user-name",
+      "targets": [],
+      "value": "123"
+    }, {
+      "id": "469f9aea-de6c-41bc-b46b-e102e748b640",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [],
+      "value": "secret sauce"
+    }, {
+      "id": "7cba37b9-3e19-4ccc-a367-cb7605e51133",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-button",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "236c93be-5962-409b-8d83-e376c3729734",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h3",
+      "targets": [],
+      "value": "Epic sadface: Username and password do not match any user in this service"
+    }]
+  }],
+  "suites": [{
+    "id": "7d12132e-3a78-4793-a51b-5f4d86a86ff7",
+    "name": "Login with Invalid User and Retry",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f9db5023-d87c-4b45-97fe-8bdf01ca13be"]
+  }],
+  "urls": ["https://www.saucedemo.com/"],
+  "plugins": []
+}
