@@ -151,6 +151,143 @@
       "targets": [],
       "value": ""
     }]
+  }, {
+    "id": "749650be-6b14-457f-baf7-d9613546f8e6",
+    "name": "Login and Logout Test",
+    "commands": [{
+      "id": "4ed1b8bf-1f95-4aec-9496-eab949bbec73",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c4a6dd4a-39fe-4a18-b558-8f045347f31e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=btn-make-appointment",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f58f0035-ce0c-4f0e-8e01-78c45a6c010a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#btn-make-appointment",
+      "targets": [],
+      "value": "Make Appointment"
+    }, {
+      "id": "4b4579d4-ba68-4d45-9d9b-bcca31901d05",
+      "comment": "",
+      "command": "click",
+      "target": "css=#btn-make-appointment",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b25c60e-58b1-4bb7-ad9f-e67bb88341f6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c7ef45e-3ed0-4cc9-a8c4-0871970e44f0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.lead",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "211acf98-ef83-4f82-ade7-cae06fe4c0db",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=div:nth-child(2) > label",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd779b92-9062-49a1-ac4b-c9bdeeb5115f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=div:nth-child(3) > label",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d11a4d3-6673-486c-a13a-8fff798d1128",
+      "comment": "",
+      "command": "type",
+      "target": "id=txt-username",
+      "targets": [],
+      "value": "John Doe"
+    }, {
+      "id": "31e49afb-d7b8-4b7d-97d4-37d45aa22617",
+      "comment": "",
+      "command": "type",
+      "target": "id=txt-password",
+      "targets": [],
+      "value": "ThisIsNotAPassword"
+    }, {
+      "id": "56ed41ae-a735-40a2-847a-d6ddd9831ccb",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e696887-f97a-46f6-ab34-4e82d4df604d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0abdea4c-bbda-463b-90ce-de9a9632bc53",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h2",
+      "targets": [],
+      "value": "Make Appointment"
+    }, {
+      "id": "03549577-f85c-4ce3-9144-467d292e7729",
+      "comment": "",
+      "command": "click",
+      "target": "id=menu-toggle",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "781ab774-1cb8-43da-b7b5-4392fee276c3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1a0d44d-2b0d-4055-b5e3-b2504d36497a",
+      "comment": "",
+      "command": "click",
+      "target": "id=menu-toggle",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8cbf2588-cd75-4b82-a433-14e53397ffef",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9643ce5-c589-4918-8535-3cc817be2bf3",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-make-appointment",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f5937a7a-a20b-4ea5-b61a-0ff9d1b8f873",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=div:nth-child(1) > label",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "b6ada73c-2055-439f-a4ab-e2307e880a47",
@@ -158,7 +295,14 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["c693345f-5302-4476-a5c5-1813b2a71ab3"]
+    "tests": ["c693345f-5302-4476-a5c5-1813b2a71ab3", "a399667a-ac9e-4653-ac14-49f1f23a419f"]
+  }, {
+    "id": "a4a942f5-710c-4872-8307-d6b1a62fc745",
+    "name": "Login and Logout",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
   }],
   "urls": ["https://katalon-demo-cura.herokuapp.com/"],
   "plugins": []
