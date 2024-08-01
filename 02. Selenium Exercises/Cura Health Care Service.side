@@ -288,6 +288,164 @@
       "targets": [],
       "value": ""
     }]
+  }, {
+    "id": "ad507edf-63c1-48a0-8108-cea1c42ab3aa",
+    "name": "Make an Appointment Test",
+    "commands": [{
+      "id": "c8b9ad68-eef6-4291-9160-6635090c2344",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "219e7c9d-7a4a-42fc-9891-550045bfd4b2",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-make-appointment",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "56d6fa22-6731-42fc-a9fe-3817e2e0ebba",
+      "comment": "",
+      "command": "type",
+      "target": "id=txt-username",
+      "targets": [],
+      "value": "John Doe"
+    }, {
+      "id": "06a9cdbe-54ac-470e-88b7-d34197f1b913",
+      "comment": "",
+      "command": "type",
+      "target": "id=txt-password",
+      "targets": [],
+      "value": "ThisIsNotAPassword"
+    }, {
+      "id": "e7caef9c-df33-45c8-9a58-01c9b0d79136",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1bd8fbc-af5d-4954-9b45-d942883e4f92",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=div:nth-child(1) > label",
+      "targets": [],
+      "value": "Facility"
+    }, {
+      "id": "e696f7cf-a648-4486-b2fd-0568b994ea6b",
+      "comment": "",
+      "command": "select",
+      "target": "id=combo_facility",
+      "targets": [],
+      "value": "Hongkong CURA Healthcare Center"
+    }, {
+      "id": "bdd8dcf4-2b1a-4234-b850-981f58a483ca",
+      "comment": "",
+      "command": "click",
+      "target": "id=radio_program_none",
+      "targets": [],
+      "value": "None"
+    }, {
+      "id": "9614015e-8ca2-461b-b5b0-a825d6685eff",
+      "comment": "",
+      "command": "type",
+      "target": "id=txt_visit_date",
+      "targets": [],
+      "value": "01/08/2022"
+    }, {
+      "id": "72a4d5e0-09b3-47d8-8406-6f9b853d202e",
+      "comment": "",
+      "command": "type",
+      "target": "id=txt_comment",
+      "targets": [],
+      "value": "Tomorrow"
+    }, {
+      "id": "e53df664-534a-4834-a307-f29aa7e1f8ab",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-book-appointment",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68501abb-e689-476c-b483-f62049c3c6f9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=h2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e17e1c5a-7eab-4b31-99fd-61311c5702d1",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h2",
+      "targets": [],
+      "value": "Appointment Confirmation"
+    }, {
+      "id": "17cceeb9-1316-4fed-b907-6f6754dc9f25",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=facility",
+      "targets": [],
+      "value": "Hongkong CURA Healthcare Center"
+    }, {
+      "id": "5232e5c2-867f-45f2-b8d8-dd05de6674a8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=program",
+      "targets": [],
+      "value": "None"
+    }, {
+      "id": "2c0f81e0-452b-4aee-b6e3-872f1b0e3af3",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=visit_date",
+      "targets": [],
+      "value": "01/08/2022"
+    }, {
+      "id": "1579e61a-7f88-4f1f-99f5-a05845828c07",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=comment",
+      "targets": [],
+      "value": "Tomorrow"
+    }, {
+      "id": "c9ee2e61-3c60-49d3-bf96-ec71b64fc1c7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=hospital_readmission",
+      "targets": [],
+      "value": "No"
+    }, {
+      "id": "a380b83a-071b-45e9-86fc-9af51cc03af4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6eae4cd4-34b2-46cb-96e3-f4b7d3ef0bf3",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=btn-make-appointment",
+      "targets": [],
+      "value": "Make Appointment"
+    }, {
+      "id": "fe2e2514-3647-4bfd-bb41-0ac7020af049",
+      "comment": "",
+      "command": "click",
+      "target": "id=btn-make-appointment",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b500f235-7ab1-470f-8d2a-483031f839f9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "b6ada73c-2055-439f-a4ab-e2307e880a47",
@@ -299,6 +457,13 @@
   }, {
     "id": "a4a942f5-710c-4872-8307-d6b1a62fc745",
     "name": "Login and Logout",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }, {
+    "id": "7d02f703-c55f-409f-a667-f5c13e862765",
+    "name": "Make an Appointment",
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
