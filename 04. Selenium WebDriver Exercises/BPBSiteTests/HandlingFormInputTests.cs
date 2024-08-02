@@ -60,7 +60,7 @@ namespace BPBSiteTests
 
             string textCreatedPage = driver.FindElement(By.CssSelector("h1")).Text;
 
-            Assert.That(textCreatedPage, Is.EqualTo("Your Account Has Been Created!"));
+            Assert.That(textCreatedPage, Is.EqualTo("Your Account Has Been Created!"), "Account creation failed");
 
 
         }
