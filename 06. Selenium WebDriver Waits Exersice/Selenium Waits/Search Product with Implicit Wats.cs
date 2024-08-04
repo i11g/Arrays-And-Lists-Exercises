@@ -41,6 +41,7 @@ namespace Selenium_Waits
                 Assert.Fail("Unexpected exception: " + ex.Message);
             }
         }
+
         [Test, Order(2)] 
 
         public void SearchProduct_JunkShouldFail()
