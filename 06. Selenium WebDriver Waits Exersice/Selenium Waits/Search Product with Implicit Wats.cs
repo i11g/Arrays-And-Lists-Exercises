@@ -31,10 +31,10 @@ namespace Selenium_Waits
             try
             {
                 driver.FindElement(By.XPath("//td[@align='center']//span//span[2]")).Click();
-                //var text = driver.FindElement(By.XPath("//td[2]/a[1]/strong"));
+                var text = driver.FindElement(By.XPath("//form[@name='cart_quantity']//a//strong")).Text;
 
                 Assert.That(driver.PageSource.Contains("keyboard"), "The product keyboard was not found");
-                //Assert.That(text.Displayed, "The text is not displayed");
+                Assert.That(text, Is.EqualTo("Microsoft Internet Keyboard PS/2"),  "The text is not displayed");
             }
             catch (Exception ex)
             {
