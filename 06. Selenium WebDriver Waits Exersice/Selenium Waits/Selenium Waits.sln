@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34601.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplicitWaitsTests", "ImplicitWaitsTests.csproj", "{070ADA80-DA61-4AB4-92A6-2F9655295878}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExplicitWaitTests", "..\ExplicitWaitTests\ExplicitWaitTests.csproj", "{3F58B32D-F130-467F-B8DE-FB6A06C46818}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExplicitWaitTests", "..\ExplicitWaitTests\ExplicitWaitTests.csproj", "{3F58B32D-F130-467F-B8DE-FB6A06C46818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Working With Windows1", "..\Working With Windows1\Working With Windows1.csproj", "{18F77289-5C83-4EF0-BC45-C1C2ADA95B76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{3F58B32D-F130-467F-B8DE-FB6A06C46818}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F58B32D-F130-467F-B8DE-FB6A06C46818}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F58B32D-F130-467F-B8DE-FB6A06C46818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18F77289-5C83-4EF0-BC45-C1C2ADA95B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18F77289-5C83-4EF0-BC45-C1C2ADA95B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18F77289-5C83-4EF0-BC45-C1C2ADA95B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18F77289-5C83-4EF0-BC45-C1C2ADA95B76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
