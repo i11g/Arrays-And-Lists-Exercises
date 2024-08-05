@@ -1,4 +1,5 @@
 using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
 
 namespace WorkingWith_Iframes
 {
@@ -8,6 +9,8 @@ namespace WorkingWith_Iframes
         [SetUp]
         public void Setup()
         {
+            driver = new ChromeDriver();
+
         }
 
         [Test]
