@@ -1,0 +1,102 @@
+{
+  "id": "5b59302b-52e3-4a5c-b506-c49de45d84b7",
+  "version": "2.0",
+  "name": "Revue Crafters Selenium IDE",
+  "url": "https://d3s5nxhwblsjbi.cloudfront.net/  ",
+  "tests": [{
+    "id": "ead595a1-27db-4143-b9d0-4e94ec25f4a8",
+    "name": " Home Page Navigation Test (Non-Logged User) ",
+    "commands": [{
+      "id": "fdfcc626-1475-48c5-a0f7-f3620334623c",
+      "comment": "",
+      "command": "open",
+      "target": "https://d3s5nxhwblsjbi.cloudfront.net/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5dbee444-9daa-4cec-8387-07a741652b1b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1533x817",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c5f48650-ab43-4513-88f5-68073173c182",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mask > .container",
+      "targets": [
+        ["css=.mask > .container", "css:finder"],
+        ["xpath=//div[@id='intro']/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eacd31c8-3df9-47a6-9219-812cc60cc96a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#intro > .mask",
+      "targets": [
+        ["css=#intro > .mask", "css:finder"],
+        ["xpath=//div[@id='intro']/div", "xpath:idRelative"],
+        ["xpath=//section/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89d01b8a-47a0-4490-b62a-5f969d93e0c6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/#homePage')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34c5623a-5290-49f5-8e78-7040b3398447",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=About",
+      "targets": [
+        ["linkText=About", "linkText"],
+        ["css=.me-auto > .nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/#aboutUs')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0aba847-9b3b-4687-83fb-f43b65a12206",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Services",
+      "targets": [
+        ["linkText=Services", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Services')]", "xpath:link"],
+        ["xpath=//div[@id='navbarSupportedContent']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/#servicePage')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Services')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "31f668e3-6ed2-4fea-a08f-bbdb89306fc2",
+    "name": "Revue Tests ",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ead595a1-27db-4143-b9d0-4e94ec25f4a8"]
+  }],
+  "urls": [],
+  "plugins": []
+}
