@@ -1,6 +1,8 @@
 using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Interactions;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
 namespace IdeaCenterSeleniumWebAutotests
@@ -10,6 +12,8 @@ namespace IdeaCenterSeleniumWebAutotests
     {
         private IWebDriver driver;
         private readonly string BASEURL = "http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com:83";
+        private static string lastCreatedIdeaTitle;
+        private static string lastCreatedIdeaDescription;
 
         [OneTimeSetUp]
         public void OneTimeSetup()
@@ -69,11 +73,11 @@ namespace IdeaCenterSeleniumWebAutotests
         public void Create_Random_Idea_Test()
         {
             driver.Navigate().GoToUrl(BASEURL + "/Ideas/Create");
-            var title = GenerateRandomString(6);
-            var description ="Description " + GenerateRandomString(10); 
+            lastCreatedIdeaTitle = GenerateRandomString(6);
+            lastCreatedIdeaDescription ="Description " + GenerateRandomString(10); 
 
-            driver.FindElement(By.Id("form3Example1c")).SendKeys(title);
-            driver.FindElement(By.Id("form3Example4cd")).SendKeys(description);
+            driver.FindElement(By.Id("form3Example1c")).SendKeys(lastCreatedIdeaTitle);
+            driver.FindElement(By.Id("form3Example4cd")).SendKeys(lastCreatedIdeaDescription);
             driver.FindElement(By.XPath("//button[@class='btn btn-primary btn-lg']")).Click();
 
             var pageUrl = driver.Url;
@@ -83,10 +87,28 @@ namespace IdeaCenterSeleniumWebAutotests
             IWebElement lastIdea = createdIdeas.Last();
             var lastIdeaText=lastIdea.FindElement(By.XPath(".//div[@class='card-body']//p"));
 
-            Assert.That(lastIdeaText.Text, Is.EqualTo(description));
+            Assert.That(lastIdeaText.Text, Is.EqualTo(lastCreatedIdeaDescription));
+        }
+        [Test,Order(3)] 
 
-        } 
-        
+        public void View_Last_Created_Idea_Test ()
+        {
+            driver.Navigate().GoToUrl(BASEURL + "/Ideas/MyIdeas");
+            ReadOnlyCollection<IWebElement> createdIdeas = driver.FindElements(By.CssSelector(".card.mb-4.box-shadow"));
+            IWebElement lastIdea = createdIdeas.Last();
+
+            var viewLastIdeaButton = lastIdea.FindElement(By.XPath(".//a[@class='btn btn-sm btn-outline-secondary' and text()='View']"));
+            
+            Actions actions = new Actions(driver);
+            actions.MoveToElement(viewLastIdeaButton).Click().Perform();
+
+            
+            var textTitle = driver.FindElement(By.XPath("//div[@class='p-5 text-center bg-light']//h1")).Text.Trim();
+
+            Assert.That(textTitle, Is.EqualTo(lastCreatedIdeaTitle));
+        }
+
+
         public string GenerateRandomString(int length)
         {
             const string chars = "hskjghskjhgdskjhgsjdkghdsjkghsdkjg";
