@@ -2,6 +2,8 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
+using OpenQA.Selenium.Support.UI;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
@@ -97,17 +99,86 @@ namespace IdeaCenterSeleniumWebAutotests
             ReadOnlyCollection<IWebElement> createdIdeas = driver.FindElements(By.CssSelector(".card.mb-4.box-shadow"));
             IWebElement lastIdea = createdIdeas.Last();
 
-            var viewLastIdeaButton = lastIdea.FindElement(By.XPath(".//a[@class='btn btn-sm btn-outline-secondary' and text()='View']"));
+            var viewLastIdeaButton = lastIdea.FindElement(By.XPath(".//a[@class='btn btn-sm btn-outline-secondary'and text()='View']"));
             
             Actions actions = new Actions(driver);
             actions.MoveToElement(viewLastIdeaButton).Click().Perform();
 
             
-            var textTitle = driver.FindElement(By.XPath("//div[@class='p-5 text-center bg-light']//h1")).Text.Trim();
+            var textTitle = driver.FindElement(By.XPath("//div[@id='intro']//h1")).Text.Trim();
 
-            Assert.That(textTitle, Is.EqualTo(lastCreatedIdeaTitle));
+            Assert.That(textTitle, Is.EqualTo(lastCreatedIdeaTitle), "Last Idea text title is not correct");
+        }
+        [Test, Order(4)] 
+
+        public void Edit_Last_Created_Idea_Title_Test ()
+        {
+            driver.Navigate().GoToUrl(BASEURL+ "/Ideas/MyIdeas");
+
+            var wait = new WebDriverWait(driver,TimeSpan.FromSeconds(10));
+            var createdIdeas = wait.Until(driver=>driver.FindElements(By.CssSelector(".card.mb-4.box-shadow")));
+            
+            Assert.IsTrue(createdIdeas.Count > 0, "No idea cards were found on the page.");
+            
+            var lastIdea = createdIdeas.Last();            
+
+            var editButton = lastIdea.FindElement(By.CssSelector("a[href*='/Ideas/Edit']")); 
+            Actions actions = new Actions(driver);
+            actions.MoveToElement(editButton).Click().Perform();
+
+            driver.FindElement(By.XPath("//input[@id='form3Example1c']")).Clear();
+            var editedTitle = "Edite Title";
+            driver.FindElement(By.XPath("//input[@id='form3Example1c']")).SendKeys(editedTitle);
+            driver.FindElement(By.XPath("//button[@class='btn btn-primary btn-lg']")).Click();
+
+            createdIdeas = driver.FindElements(By.CssSelector(".card.mb-4.box-shadow"));
+            lastIdea = createdIdeas.Last();
+
+            var viewButton = lastIdea.FindElement(By.CssSelector("a[href*='/Ideas/Read']"));
+            Actions action = new Actions(driver);
+            action.MoveToElement(viewButton).Click().Perform();
+
+            var newEditedTitle = driver.FindElement(By.XPath("//*[@id='intro']/h1")).Text;
+
+            Assert.That(newEditedTitle, Is.EqualTo(editedTitle));
         }
 
+        [Test, Order(5)]
+
+        public void Edit_LastCreatedIdea_Deacription_Tests()
+        {
+            driver.Navigate().GoToUrl(BASEURL + "/Ideas/MyIdeas");
+
+            var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            var ideaCards = wait.Until(driver => driver.FindElements(By.CssSelector(".card.mb-4.box-shadow")));
+
+            Assert.IsTrue(ideaCards.Count > 0, "No idea cards were found on the page.");
+
+            var lastIdeaCard = ideaCards.Last();
+            var editButton = lastIdeaCard.FindElement(By.CssSelector("a[href*='/Ideas/Edit']"));
+
+            Actions actions = new Actions(driver);
+            actions.MoveToElement(editButton).Click().Perform();
+
+
+            driver.FindElement(By.XPath("//textarea[@id='form3Example4cd']")).Clear();
+            driver.FindElement(By.XPath("//textarea[@id='form3Example4cd']")).SendKeys("Changed Description: Edited Decription");
+
+            driver.FindElement(By.XPath("//button[@class='btn btn-primary btn-lg']")).Click();
+
+            wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+            ideaCards = wait.Until(driver => driver.FindElements(By.CssSelector(".card.mb-4.box-shadow")));
+            lastIdeaCard = ideaCards.Last();
+
+            var viewButton = lastIdeaCard.FindElement(By.CssSelector("a[href*='/Ideas/Read']"));
+            Actions action = new Actions(driver);
+            action.MoveToElement(viewButton).Click().Perform();
+
+            var editedDescription = driver.FindElement(By.XPath("//section[@class='row']//p")).Text;
+
+            Assert.That(editedDescription, Is.EqualTo("Changed Description: Edited Decription"), "Edited Description is not correct");
+
+        }
 
         public string GenerateRandomString(int length)
         {
