@@ -150,6 +150,13 @@
       "target": "//a[@class='btn btn-primary me-3']",
       "targets": [],
       "value": ""
+    }, {
+      "id": "896d80f2-e04a-442b-9cc7-5f4581b7931f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
     }]
   }, {
     "id": "fb033c08-603e-4029-ae77-f76c182cf6cb",
@@ -243,6 +250,178 @@
         ["xpath=//button[@type='submit']", "xpath:attributes"],
         ["xpath=//form/button", "xpath:position"]
       ],
+      "value": ""
+    }]
+  }, {
+    "id": "bc1215d9-324e-4690-930c-67d62aca71f5",
+    "name": "Edit Profile Test",
+    "commands": [{
+      "id": "552eb201-8a8f-4d3b-839a-460917964baa",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca25152b-ae13-47f1-854b-a05e8ec4a981",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23cf62f1-da4e-4f73-a968-a4f3207980ff",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@class='btn btn-outline-info px-3 me-2']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8fe9e48-fde4-4691-bc7e-b798a1b33bea",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@id='typeEmailX-2']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f12c4880-6c26-4804-a9f4-a9d6f8b69f9a",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='typeEmailX-2']",
+      "targets": [],
+      "value": "iv1234@test.com"
+    }, {
+      "id": "26e1709f-baec-4e8b-836d-ad2a26776ba1",
+      "comment": "",
+      "command": "click",
+      "target": "//input[@id='typePasswordX-2']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff3c6de1-6999-4adb-a82c-b9e0cedf336d",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='typePasswordX-2']",
+      "targets": [],
+      "value": "123456"
+    }, {
+      "id": "563b7377-baec-4080-a5fc-2e3f7971c73f",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@class='btn btn-primary btn-lg btn-block']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce0ec8bc-643a-4ba0-9f77-8a072803d485",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@class='nav-link' and text()='My Profile']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbffe0bf-e02f-4f6d-ae0d-934ab1ab007b",
+      "comment": "",
+      "command": "click",
+      "target": "//span[@class='btn btn-outline-dark']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "060ad0c2-671e-41cc-b713-edef21a82d62",
+      "comment": "",
+      "command": "click",
+      "target": "//input[@id='form3Example1c' and @class='form-control active']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0e01c77c-e213-47db-af9e-bcf45e7f14ab",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='form3Example1c' and @class='form-control active']",
+      "targets": [],
+      "value": "iv"
+    }, {
+      "id": "3b5ddd6e-73e1-4b67-9b9b-c38cbf9affb9",
+      "comment": "",
+      "command": "click",
+      "target": "//input[@id='form3Example3c']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58c5b89d-5710-47a5-8974-b215b2624154",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='form3Example3c']",
+      "targets": [],
+      "value": "pesho"
+    }, {
+      "id": "a4cb5271-206a-438f-aeed-8d7e9e32a001",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@id='form3Example4c']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf7718f6-e343-4cd9-ba16-520374899fa7",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='form3Example4c']",
+      "targets": [],
+      "value": "london"
+    }, {
+      "id": "97b89687-fe8b-4268-b91a-fab5565ccb85",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//textarea[@id='form3Example4cd']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8dc85f66-c3ea-40cb-bbcb-710f4f96d4ef",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//textarea[@id='form3Example4cd']",
+      "targets": [],
+      "value": "tomorrow"
+    }, {
+      "id": "45e0db1c-e376-445b-974a-6ebad937c5e6",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[@class='btn btn-primary btn-lg']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "037ec428-b6c8-49f2-b58c-7044b3970425",
+      "comment": "",
+      "command": "assertText",
+      "target": "//div[@class='ms-3']//p",
+      "targets": [],
+      "value": "iv pesho , london"
+    }, {
+      "id": "0576a935-e991-48cf-acb8-cfb5780d842a",
+      "comment": "",
+      "command": "assertText",
+      "target": "//div[@class='p-4']//p",
+      "targets": [],
+      "value": "tomorrow"
+    }, {
+      "id": "a81e7c15-d410-4536-8eca-07395780ef54",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@class='btn btn-primary me-3']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d8ed00c-c1c5-452b-955e-ae77a34f1314",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[@class='btn btn-primary me-3']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "328a8c98-b607-4586-a87d-ff654e37ea8d",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
       "value": ""
     }]
   }],
