@@ -70,6 +70,122 @@
       "targets": [],
       "value": ""
     }]
+  }, {
+    "id": "4a7745f9-708c-46aa-9235-6ba1491856d4",
+    "name": "1.2.2. Log In Test ",
+    "commands": [{
+      "id": "fab4e374-88fc-48d0-9f6b-5738c190d7f4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00260b11-0f94-47b6-a97b-fe7c66da15a5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60cf3510-41a7-44ef-9437-3fe7ef1ad298",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[@class='nav-link text-dark' and text()='Login']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "13db6c59-107e-4e23-98f2-f6c024a316fa",
+      "comment": "",
+      "command": "click",
+      "target": "//input[@id='form3Example3']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98636afb-d7d1-435a-82f6-dc6ffc4adc55",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='form3Example3']",
+      "targets": [],
+      "value": "iv@test.com"
+    }, {
+      "id": "bc752af9-3327-40ee-993a-edb242c8b204",
+      "comment": "",
+      "command": "click",
+      "target": "//input[@id='form3Example4']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cedd44ca-e8ff-4d73-975a-8259fe1a705a",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@type='password']",
+      "targets": [],
+      "value": "123456"
+    }, {
+      "id": "c0f9d5ab-ce2f-45c1-b99a-3b7d6664faf1",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@class='btn btn-primary btn-block mb-4']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8cac332c-bda8-4e0a-a43e-5938c2fbf46b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//li[@class='nav-item']//a[@class='nav-link active']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c667c73-7c5a-4edc-970e-3bed2a09ed9b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[@class='nav-link']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "841dc4be-7808-47fe-ba9d-477379a87f16",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//li[@class='nav-item']//a[contains(@href, '/Profile')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90b8352f-6f0c-42ea-8c02-96de0b6ade11",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[@class='nav-link text-dark' and text()='Logout']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c57ccc7-d68b-48e3-a896-35c48770e5d0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@class='col-md-6 gx-5 mb-4']//h4//strong",
+      "targets": [],
+      "value": "Dear, iv1"
+    }, {
+      "id": "f03d52eb-f49f-45e4-bf2e-12438d0fe7eb",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@class='nav-link text-dark' and text()='Logout']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92345cf3-6e04-426f-a866-9622ef2fc748",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@class='col-md-6 gx-5 mb-4']//h4//strong",
+      "targets": [],
+      "value": "Explore the World of Reviews"
+    }, {
+      "id": "092bf45b-4a2d-4c7b-a9b1-0b89d5d17d23",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "9f70c137-2339-44e2-8831-cc1f213c59f1",
