@@ -177,7 +177,26 @@ namespace IdeaCenterSeleniumWebAutotests
             var editedDescription = driver.FindElement(By.XPath("//section[@class='row']//p")).Text;
 
             Assert.That(editedDescription, Is.EqualTo("Changed Description: Edited Decription"), "Edited Description is not correct");
+        }
+        [Test, Order(6)] 
 
+        public void Delete_lastIdea_Test()
+        {
+            driver.Navigate().GoToUrl(BASEURL + "/Ideas/MyIdeas");
+            var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+
+            var ideaCards = wait.Until(driver => driver.FindElements(By.XPath("//div[@class='card mb-4 box-shadow']")));
+            var lastIdea = ideaCards.Last();
+
+            var deleteButton = driver.FindElement(By.XPath(".//a[contains(@href, '/Ideas/Delete')]"));
+
+            Actions actions = new Actions (driver);
+            actions.MoveToElement(deleteButton).Click().Perform();
+
+            ideaCards = wait.Until(driver => driver.FindElements(By.XPath("//div[@class='card mb-4 box-shadow']")));
+
+            bool ideaCardDleted=ideaCards.All(e=>!e.Text.Contains(lastCreatedIdeaDescription));
+            Assert.IsTrue(ideaCardDleted, "The last idea was not deleted succesfully");
         }
 
         public string GenerateRandomString(int length)
