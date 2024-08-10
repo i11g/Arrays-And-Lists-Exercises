@@ -186,6 +186,101 @@
       "targets": [],
       "value": ""
     }]
+  }, {
+    "id": "69222bc5-3e58-437d-b0f9-9a0c65f41c7b",
+    "name": "1.2.3. Verify Profile Test ",
+    "commands": [{
+      "id": "978c6a13-3849-42dd-9eb8-f58e89ae5144",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3535eac5-349e-45d3-a46b-de5c10072fec",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1472e542-e526-4e43-ba98-6b4b5fd69235",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d43d3c4-c309-42fe-89f8-c190496f59d7",
+      "comment": "",
+      "command": "click",
+      "target": "//input[@id='form3Example3']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "803009b5-0f37-456b-92c8-f20892d5fbd8",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='form3Example3']",
+      "targets": [],
+      "value": "iv@test.com"
+    }, {
+      "id": "f2b87421-6aff-42c4-ad00-4909352fdf1a",
+      "comment": "",
+      "command": "click",
+      "target": "//input[@id='form3Example4']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aba13ffe-eda1-45c2-9580-fd60038576e8",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@type='password']",
+      "targets": [],
+      "value": "123456"
+    }, {
+      "id": "c08b0d36-4e1b-4cea-90fa-2abe7a1b9b4d",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@class='btn btn-primary btn-block mb-4']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "308167af-db3f-408f-afca-54fe96b012fd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Profile",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15655266-6f96-4efe-8d1c-fd298018907a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@class='ms-3']//h5",
+      "targets": [],
+      "value": "iv1"
+    }, {
+      "id": "2980e034-7113-45b1-85a9-b085674f7f18",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cefc7bda-922b-4a36-876e-eebaca75a678",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Register",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2299966e-0eb0-4f66-8c3d-953fbce433d6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "9f70c137-2339-44e2-8831-cc1f213c59f1",
@@ -193,7 +288,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["c85308cf-8f66-46e8-9477-6c4d73c05935"]
+    "tests": ["c85308cf-8f66-46e8-9477-6c4d73c05935", "4a7745f9-708c-46aa-9235-6ba1491856d4", "69222bc5-3e58-437d-b0f9-9a0c65f41c7b"]
   }],
   "urls": ["https://d3s5nxhwblsjbi.cloudfront.net/"],
   "plugins": []
