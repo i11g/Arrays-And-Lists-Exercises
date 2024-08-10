@@ -1,0 +1,259 @@
+{
+  "id": "94526d5a-4798-4f5d-89df-b30f0fcaf4c1",
+  "version": "2.0",
+  "name": "IdeaCenterAutomationTests",
+  "url": "http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com:83  ",
+  "tests": [{
+    "id": "7d5f10f6-052b-4344-9145-f5315589e249",
+    "name": "1.2.1. Home Page Navigation Test (Non-Logged User) ",
+    "commands": [{
+      "id": "4398445e-4915-4bf9-9f72-2a8b2e32417d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34cb5dcb-615e-4b3c-988a-90c722fbc532",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b7bbba1-e22b-4bf8-b90a-183129f83f7c",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Home Page - IdeaCenter.WebApp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bd4dd40-da51-4d7f-8292-407f0c38f655",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[@class='btn btn-primary me-3']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0609aa86-45fe-4969-97fe-8aa99e9c6cc1",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.btn-outline-info",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c395c08-0bb0-47e0-9998-7a498411a2c8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "af88f4ff-7a54-486a-8be7-63ed0c0c91c7",
+    "name": "1.2.2. Log In Test ",
+    "commands": [{
+      "id": "7b797284-a003-4f43-8ec8-59d4e0b1b02b",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "901aa733-4b64-4ecf-aed9-260911dca709",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0200334-8cd3-419e-93a2-57b84ef3559b",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@class='btn btn-outline-info px-3 me-2']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2dbda385-6991-4e9a-b2ff-cf08edcdf040",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@id='typeEmailX-2']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b7995993-88d5-47f1-a8f7-f9b8db0f2827",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='typeEmailX-2']",
+      "targets": [],
+      "value": "iv1234@test.com"
+    }, {
+      "id": "c1e88349-313b-4a53-96b9-1e3d048aea86",
+      "comment": "",
+      "command": "click",
+      "target": "//input[@id='typePasswordX-2']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c40085b2-5adb-4a2f-92a9-0c6588bf3b38",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='typePasswordX-2']",
+      "targets": [],
+      "value": "123456"
+    }, {
+      "id": "2fb2dfd3-81e1-4923-b473-ed74e03d60a2",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@class='btn btn-primary btn-lg btn-block']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4bd13b7-2b8a-4dd4-9665-94f8a89772be",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[@class='nav-link' and text() ='My Profile']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54b42c33-a173-4728-8f9e-b5a15548af98",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[@class='nav-link' and text() ='My Ideas']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82592906-40e1-4ab7-be11-84eb101934e4",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[@class='nav-link' and text() ='Create Idea']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8fbd63a6-ea3c-4008-a09f-82d3c662f124",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[@class='btn btn-primary me-3']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf350a6b-c176-4f9d-bc70-5ad9ef6e6a3a",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@class='btn btn-primary me-3']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "22b844da-e727-482a-b105-4c03d7d93fc4",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[@class='btn btn-primary me-3']",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "fb033c08-603e-4029-ae77-f76c182cf6cb",
+    "name": "Login Test",
+    "commands": [{
+      "id": "91f87928-2ddc-416d-aa12-725453c3c475",
+      "comment": "",
+      "command": "open",
+      "target": "http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com:83/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "648d897c-1514-404d-9ff7-1850cddc5f57",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1532x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fd8051c1-7f1f-4c67-8047-319120257b3b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-outline-info",
+      "targets": [
+        ["css=.btn-outline-info", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=//div[@id='navbarButtonsExample']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Users/Login')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7a3a992-b308-4bdc-9d06-d27f55dcf11c",
+      "comment": "",
+      "command": "click",
+      "target": "id=typeEmailX-2",
+      "targets": [
+        ["id=typeEmailX-2", "id"],
+        ["name=Email", "name"],
+        ["css=#typeEmailX-2", "css:finder"],
+        ["xpath=//input[@id='typeEmailX-2']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22c95036-c416-4fb9-826b-37ac2e25d631",
+      "comment": "",
+      "command": "type",
+      "target": "id=typeEmailX-2",
+      "targets": [
+        ["id=typeEmailX-2", "id"],
+        ["name=Email", "name"],
+        ["css=#typeEmailX-2", "css:finder"],
+        ["xpath=//input[@id='typeEmailX-2']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "iv1234@test.com"
+    }, {
+      "id": "776331dc-fe96-40e4-a5c3-0123fe3de065",
+      "comment": "",
+      "command": "click",
+      "target": "id=typePasswordX-2",
+      "targets": [
+        ["id=typePasswordX-2", "id"],
+        ["name=Password", "name"],
+        ["css=#typePasswordX-2", "css:finder"],
+        ["xpath=//input[@id='typePasswordX-2']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b730f91-b709-46c6-8887-d1b0563b63de",
+      "comment": "",
+      "command": "type",
+      "target": "id=typePasswordX-2",
+      "targets": [
+        ["id=typePasswordX-2", "id"],
+        ["name=Password", "name"],
+        ["css=#typePasswordX-2", "css:finder"],
+        ["xpath=//input[@id='typePasswordX-2']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "90d510df-16e5-43f5-9133-9e4550406139",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ripple-surface",
+      "targets": [
+        ["css=.ripple-surface", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e2f73e7e-4c84-4e0c-8dea-e621247c5657",
+    "name": "IdeaCenterTestsSuite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["7d5f10f6-052b-4344-9145-f5315589e249"]
+  }],
+  "urls": ["http://softuni-qa-loadbalancer-2137572849.eu-north-1.elb.amazonaws.com:83/"],
+  "plugins": []
+}
