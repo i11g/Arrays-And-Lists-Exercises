@@ -1,0 +1,84 @@
+{
+  "id": "52542b3b-8043-4a16-80d9-ad31f8624af9",
+  "version": "2.0",
+  "name": "ExamPrepRevue",
+  "url": "https://d3s5nxhwblsjbi.cloudfront.net/  ",
+  "tests": [{
+    "id": "c85308cf-8f66-46e8-9477-6c4d73c05935",
+    "name": "1.2.1. Home Page Navigation Test",
+    "commands": [{
+      "id": "28a71195-acaf-41d8-8ed6-dec678b92cb4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9b3dba1-0e7a-496f-b41c-46ae616604ed",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x800.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "955d14dc-4788-4139-9526-4a3c82dc8ae9",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "RevueCrafters",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ffbe8b2-0d64-46e4-88a6-de196a3bc9df",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//a[@class='navbar-brand']",
+      "targets": [],
+      "value": "RevueCrafters"
+    }, {
+      "id": "5787f87e-c0ca-4a5d-9128-2c6bef5684a9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[@class='nav-link' and text()='About']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39dd2c4c-fa46-4c4c-8510-ae5b9466374c",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[@class='nav-link' and text()='Services']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ffba835-5724-4fe1-8633-ad556a05a99d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[@class='nav-link text-dark' and text()='Register']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4efeb339-6ad7-4bfe-8b22-88eccefd71a1",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[@class='nav-link text-dark' and text()='Login']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "464660e7-740d-453c-9c95-873dc908b356",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9f70c137-2339-44e2-8831-cc1f213c59f1",
+    "name": "RevueTestsSuites",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c85308cf-8f66-46e8-9477-6c4d73c05935"]
+  }],
+  "urls": ["https://d3s5nxhwblsjbi.cloudfront.net/"],
+  "plugins": []
+}
