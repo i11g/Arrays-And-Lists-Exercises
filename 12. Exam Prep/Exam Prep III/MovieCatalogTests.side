@@ -1,0 +1,84 @@
+{
+  "id": "227491b7-aa85-4c2f-b3a3-9e0959b37d35",
+  "version": "2.0",
+  "name": "MovieCatalogTests",
+  "url": "http://moviecatalog-env.eba-ubyppecf.eu-north-1.elasticbeanstalk.com/  ",
+  "tests": [{
+    "id": "ddeb4769-7b14-4700-b515-b03b972506b2",
+    "name": "1.1. Landing Page Navigation Test",
+    "commands": [{
+      "id": "eca2b975-00c0-484e-b930-3abe9537daf2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44fe3d61-5a70-4cc1-bf59-a8a2ab78af74",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ae591ba-9e42-4fde-89d7-141183406acf",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Movie Catalog",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75003ece-4c82-44c9-b350-f833dcfa9206",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[@class='nav-link js-scroll-trigger active']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb815094-b041-4f79-bac0-1fa8f235638e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[@class='nav-link js-scroll-trigger' and text()='Our Services']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70909c93-1534-46ce-9376-4f0f23c85175",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[@class='nav-link js-scroll-trigger' and text()='Login']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "336c9d1d-085b-45dd-991e-d2570e5752c6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[@class='nav-link js-scroll-trigger' and text()='Register']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80020ece-2b62-4360-8752-d827736a6731",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[@class='nav-link js-scroll-trigger' and text()='Copyrights']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a2384f7-d8db-4aae-84cc-2259b90e9268",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fd442ad9-b6c8-42bd-ae88-2b9b9da55a91",
+    "name": "MovieCatalogTests Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ddeb4769-7b14-4700-b515-b03b972506b2"]
+  }],
+  "urls": ["http://moviecatalog-env.eba-ubyppecf.eu-north-1.elasticbeanstalk.com/"],
+  "plugins": []
+}
