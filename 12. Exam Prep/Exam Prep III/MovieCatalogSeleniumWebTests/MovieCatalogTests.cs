@@ -135,10 +135,41 @@ namespace MovieCatalogSeleniumWebTests
             var successMessageText = successMessage.Text;
 
             Assert.That(successMessageText, Is.EqualTo("The Movie is edited successfully!"), "The title was not edoted successfully");
+        }
+        [Test, Order(5)]
+
+        public void Mark_Last_Movie_AS_Watched_Test()
+        {
+            driver.Navigate().GoToUrl(baseURL + "Catalog/All");
+
+            var pages = driver.FindElements(By.XPath("//a[@class='page-link']"));
+            var lastPage = pages.Last();
+            lastPage.Click();
+
+            var addedMovies = driver.FindElements(By.CssSelector(".col-lg-4"));
+            var lastAddedMovie = addedMovies.Last();
+            lastAddedMovie.FindElement(By.CssSelector(".btn-info")).Click();
+
+            
+            driver.Navigate().GoToUrl(baseURL + "Catalog/Watched");
+            
+            driver.Manage().Timeouts().ImplicitWait=TimeSpan.FromSeconds(20);
+
+            pages = driver.FindElements(By.XPath("//a[@class='page-link']"));
+            lastPage = pages.Last();
+            lastPage.Click();
+
+            addedMovies = driver.FindElements(By.CssSelector(".col-lg-4"));
+            lastAddedMovie = addedMovies.Last();
+
+            var titleLastWatchedMovie = lastAddedMovie.FindElement(By.CssSelector(".col-lg-4>h2")).Text;
+
+            Assert.That(titleLastWatchedMovie, Is.EqualTo(randomTitle));
 
         }
 
-        
+
+
 
         public static string GenerateRandomTitle(int length)
         {
