@@ -173,6 +173,25 @@ namespace RevueTestSeleniumWebDriver
 
             Assert.That(lastElementTitle, Is.Not.EqualTo(titleLastRevue));
         }
+        [Test, Order(6)] 
+
+        public void Search_FOr_Deleted_Revue_Test()
+        {
+            driver.Navigate().GoToUrl(baseURL + "/Revue/MyRevues");
+            var searhField = driver.FindElement(By.XPath("//input[@id='keyword']"));
+            Actions actions = new Actions(driver);
+            actions.MoveToElement(searhField).Click().Perform();
+            searhField.SendKeys(titleLastRevue);
+
+
+            driver.FindElement(By.XPath("//button[@id='search-button']")).Click();
+
+            var errorMessage = driver.FindElement(By.XPath("//div[@class='row text-center']//span")).Text;
+
+            Assert.That(errorMessage, Is.EqualTo("No Revues yet!"));
+
+
+        }
 
 
         public static string GenerateRandomString(int length)
