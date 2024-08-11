@@ -183,7 +183,6 @@ namespace RevueTestSeleniumWebDriver
             actions.MoveToElement(searhField).Click().Perform();
             searhField.SendKeys(titleLastRevue);
 
-
             driver.FindElement(By.XPath("//button[@id='search-button']")).Click();
 
             var errorMessage = driver.FindElement(By.XPath("//div[@class='row text-center']//span")).Text;
