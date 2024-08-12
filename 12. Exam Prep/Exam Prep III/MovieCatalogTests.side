@@ -70,6 +70,129 @@
       "targets": [],
       "value": ""
     }]
+  }, {
+    "id": "3e59f9fb-9884-48be-8218-89b04a80ac10",
+    "name": "1.2. Log In Test ",
+    "commands": [{
+      "id": "04ea0cec-4d8f-4538-8e13-6b1408ca1e0a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "157109fa-0661-4299-9f54-bec2bd0c3c4b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7051396-086a-4ed0-ad48-34d30942844c",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@class='nav-link js-scroll-trigger active']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5a5a9fa7-524d-403a-86a5-e2355588d37d",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@id='loginBtn']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6dca3400-6160-426b-891a-abb4b1720f9a",
+      "comment": "",
+      "command": "click",
+      "target": "//input[@id='form2Example17']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57976419-615f-4f72-8676-fd6b656eef50",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='form2Example17']",
+      "targets": [],
+      "value": "iv@test.com"
+    }, {
+      "id": "25b1107b-16d0-439f-a743-0d35c1308687",
+      "comment": "",
+      "command": "click",
+      "target": "//input[@id='form2Example27']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aff8b2f8-1931-4a95-b4b2-cd0e9b67cc76",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='form2Example27']",
+      "targets": [],
+      "value": "123456"
+    }, {
+      "id": "fb0e0361-1f22-4cc5-b9cd-df2d1aecc697",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@class='btn warning']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc4b688b-970d-470f-9c08-922abcde0ff7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//div[@class='subheading mb-5']",
+      "targets": [],
+      "value": "WELCOME, PESGG!"
+    }, {
+      "id": "79f2969c-228a-439d-aa5f-90278267f8d6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[@class='nav-link js-scroll-trigger' and text()='Add Movie']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb81022e-ba71-4099-9626-9799b74484df",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[@class='nav-link js-scroll-trigger' and text()='All Movies']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e563703a-925c-4956-970d-39f831ca3766",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[@class='nav-link js-scroll-trigger' and text()='Watched Movies']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8dcd236c-15b2-4367-88d9-9732d2373db0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[@class='nav-link js-scroll-trigger' and text()='Unwatched Movies']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96c79b5e-1f11-4146-98da-e855ab347254",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@class='nav-link btn btn-link text-dark js-scroll-trigger']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f75deec6-119f-4ae4-a01e-1dbc24079508",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//div[@class='subheading mb-5']",
+      "targets": [],
+      "value": "Your personalized movie sanctuary!"
+    }, {
+      "id": "8e0cfa15-81e8-49fe-a1e6-59dcc247db21",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "fd442ad9-b6c8-42bd-ae88-2b9b9da55a91",
