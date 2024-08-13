@@ -1,0 +1,91 @@
+{
+  "id": "3a81cf6d-5237-4db6-b2dd-909692cf351e",
+  "version": "2.0",
+  "name": "MovieCatalogAutomation Selenium IDE",
+  "url": "http://moviecatalog-env.eba-ubyppecf.eu-north-1.elasticbeanstalk.com/  ",
+  "tests": [{
+    "id": "833cd33f-e774-4a6d-9a53-0b6bc1544de7",
+    "name": "1.1. Landing Page Navigation Test",
+    "commands": [{
+      "id": "65ab27de-a067-41d5-8b10-2217c454728c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03f7b516-724e-42ae-9a59-7fe8fbec85a5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9b69fe3-2fb2-4fa9-b8a6-3be920f35b60",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Movie Catalog",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d35a630-5c75-4d23-9f8f-f82f2c48941f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//h1[@class='mb-0']",
+      "targets": [],
+      "value": "MOVIE CATALOG"
+    }, {
+      "id": "28dd4811-8a62-4f02-b801-6eced2f420df",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[text()='About Us']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4b64bf1-05da-474d-86a3-e3446478741f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[text()='Our Services']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4c8124e-a4c8-4e88-830f-c9446aef5541",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[text()='Login']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd12edca-2e7b-471e-beb2-85ff84fd79ac",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[text()='Copyrights']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06041d74-c22a-41cc-83ef-0d1a5d3fd25a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[text()='About Us']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e10a9bca-412d-4328-bbfa-f2467da35b23",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d43341fa-f42f-4126-a20b-cedaccd89886",
+    "name": "Movie Catalog Tests",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["833cd33f-e774-4a6d-9a53-0b6bc1544de7"]
+  }],
+  "urls": ["http://moviecatalog-env.eba-ubyppecf.eu-north-1.elasticbeanstalk.com/"],
+  "plugins": []
+}
