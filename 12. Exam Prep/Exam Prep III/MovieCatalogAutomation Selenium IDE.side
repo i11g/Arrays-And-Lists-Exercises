@@ -77,6 +77,252 @@
       "targets": [],
       "value": ""
     }]
+  }, {
+    "id": "d4867cb0-d58d-4d5d-a6d3-d776d67b8cbc",
+    "name": "1.2 Log In Test ",
+    "commands": [{
+      "id": "f2dc4a88-9376-446a-abd3-fc57bbfab874",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c840b0c1-ce49-4b50-9c98-e51d1a41da0d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "286d387f-8174-4b78-9ebf-fbc3eb076db6",
+      "comment": "",
+      "command": "click",
+      "target": "//a[text()='Login']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "461eb3f8-23ba-46b0-bed7-c4fc4d144574",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginBtn",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "afcc778e-6881-43e5-867c-707552ecb0f4",
+      "comment": "",
+      "command": "click",
+      "target": "//input[@id='form2Example17']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1240800c-9d20-46b1-974a-35759096865b",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='form2Example17']",
+      "targets": [],
+      "value": "iv@test.com"
+    }, {
+      "id": "5f916b3f-6349-4b97-94b8-278f05f8cd30",
+      "comment": "",
+      "command": "click",
+      "target": "//input[@id='form2Example27']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d932ac7-ff15-4e14-8969-39457e07abc4",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='form2Example27']",
+      "targets": [],
+      "value": "123456"
+    }, {
+      "id": "3e7953d7-e52e-491e-9813-4ec156dab5f8",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@class='btn warning']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "869cecfd-6640-461d-8326-ba64db9a0ec8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@class='subheading mb-5']",
+      "targets": [],
+      "value": "WELCOME, PESGG!"
+    }, {
+      "id": "113c01d3-311a-497c-8656-72c572c10039",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[text()='Add Movie']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bac3ff43-f5df-49fd-9f89-213b55dd63a3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[text()='All Movies']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12ee13cb-4259-4037-95f3-d9343f8635c3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[text()='Unwatched Movies']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e485da9c-751d-41e3-8190-99b179b5f18b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[text()='Watched Movies']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a743e5f-a4e1-4d70-94b4-e305488356ee",
+      "comment": "",
+      "command": "click",
+      "target": "//button[text()='Logout']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00124f27-304a-43f2-b43b-36036946363e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//div[@class='subheading mb-5']",
+      "targets": [],
+      "value": "YOUR PERSONALIZED MOVIE SANCTUARY!"
+    }, {
+      "id": "67d45aee-6564-4ead-b361-addeb4ee6121",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "c652784e-d6cb-4400-aef4-98e743679454",
+    "name": "1.3 Edit Profile Test ",
+    "commands": [{
+      "id": "05957959-06c0-4c18-b786-ab2d93235f79",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2b6a1961-1c64-4f17-8646-2a740b9fe8b4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0c5f453-b9fd-4c6a-b312-91680b3656af",
+      "comment": "",
+      "command": "click",
+      "target": "//a[text()='Login']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c3217b9-e04f-43e9-987c-fd143ae3fb51",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginBtn",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff37f4ec-dfec-4e55-8f5e-c4ceba73c5a2",
+      "comment": "",
+      "command": "click",
+      "target": "//input[@id='form2Example17']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a90bd16-b68a-4c48-92fb-fc5eebb65db1",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='form2Example17']",
+      "targets": [],
+      "value": "iv@test.com"
+    }, {
+      "id": "bf45e2f4-edca-4800-97b3-156fc069e27c",
+      "comment": "",
+      "command": "click",
+      "target": "//input[@id='form2Example27']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea6fb229-4a9b-43ac-97ee-4c0b877759c3",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@id='form2Example27']",
+      "targets": [],
+      "value": "123456"
+    }, {
+      "id": "969d0973-0fb3-48bc-9b54-83992b8835a8",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@class='btn warning']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5305ecad-6a45-4f80-8d3d-1c7c8aac0c28",
+      "comment": "",
+      "command": "click",
+      "target": "//img[@class='img-fluid img-profile rounded-circle mx-auto mb-2']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "519b97c6-c0e7-4718-a89e-f0b7e1a4d80d",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@class='btn btn-light btn-rounded btn-block btn-lg']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6a76a3ac-72b9-4b1d-b6a0-6033a7640009",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@name='FirstName']",
+      "targets": [],
+      "value": "First"
+    }, {
+      "id": "a4949917-d641-49d3-8b81-cee2d96a7104",
+      "comment": "",
+      "command": "type",
+      "target": "//input[@name='LastName']",
+      "targets": [],
+      "value": "Last"
+    }, {
+      "id": "80a29865-f672-4ef4-9362-cede3ff88183",
+      "comment": "",
+      "command": "click",
+      "target": "//button[@class='btn warning']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97db6773-3bdb-427c-8a36-7f13fdae929e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//h6[@class='mb-4']",
+      "targets": [],
+      "value": "FIRST LAST"
+    }, {
+      "id": "f8570419-2671-4d37-a240-38731010369e",
+      "comment": "",
+      "command": "click",
+      "target": "//button[text()='Logout']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cca5ab48-bc04-4a2a-98d7-c29671db808a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[text()='Login']",
+      "targets": [],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "d43341fa-f42f-4126-a20b-cedaccd89886",
